@@ -1,0 +1,7 @@
+package chap01_java;
+
+public class _01_HelloWorld {
+
+		System.out.println("hello world");
+
+}

@@ -1,0 +1,21 @@
+package chap02_variables;
+
+public class _05_ShortIntLong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. short 타입의 변수 선언 및 초기화
+		short sNum1 = 10;
+		short sNum2 = 20;
+		
+		// 2. int 타입의 변수 선언 및 초기화
+		int iNum1 = 200;
+		int iNum2 = 200000000;
+		
+		// 3. long 타입의 변수 선언 및 초기화
+		long lNum1 = 100L;
+		long lNum2 = 100l;
+		long lNum3 = 100;
+	}
+
+}

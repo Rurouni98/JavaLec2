@@ -1,0 +1,12 @@
+package chap02_variables;
+
+public class _08_VarVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. var 변수 선언 및 초기화
+		// 자바의 자료형 추론에 의해 String 타입으로 자동 지정
+		var str = "hello";
+	}
+
+}

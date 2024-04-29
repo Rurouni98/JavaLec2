@@ -1,0 +1,16 @@
+package chap04_controlstatement;
+
+public class _01_IfStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int lunchPrice = 10000;
+		
+		if(lunchPrice > 10000) {
+			System.out.println("비싸다");
+		} else if(lunchPrice > 8500) {
+			System.out.println("조금 비싸다");
+		}
+	}
+
+}

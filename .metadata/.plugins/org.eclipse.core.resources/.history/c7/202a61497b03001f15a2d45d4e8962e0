@@ -1,0 +1,14 @@
+package chap02_variables;
+
+public class _10_TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 자동형변환1: byte 크기가 작은 타입에서 큰 타입으로는 자동형변환이 일어난다.
+		short sNum1 = 10;
+		
+		// short은 2byte고 int는 4byte이기 때문에 sNum1이 자동으로 int 타입으로 변환된다.
+		int iNum1 = sNum1;
+	}
+
+}
