@@ -1,0 +1,36 @@
+package homework;
+
+import java.util.Scanner;
+
+public class _03_Advance1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1번 문제
+		Scanner sc = new Scanner(System.in);
+	
+		System.out.println("금액을 입력해주세요.");
+		int money = sc.nextInt();
+		
+		int a = (int)(money / 50000);
+		money -= 50000 * a;
+		int b = (int)(money / 10000);
+		int c = (int)((a - 10000 * b) / 5000);
+		int d = (int)((b - 5000 * c) / 1000);
+		int e = (int)((c - 1000 * d) / 500);
+		int f = (int)((d - 500 * e) / 100);
+		int g = (int)((e - 100 * f) / 50);
+		int h = (int)((f - 50 * g) / 10);
+		
+		System.out.print("<오만원 " + a + "매, ");
+		System.out.print("만원 " + b + "매, ");
+		System.out.print("오천원 " + c + "매, ");
+		System.out.print("천원 " + d + "매, ");
+		System.out.print("500원 " + e + "개, ");
+		System.out.print("100원 " + f + "개, ");
+		System.out.print("50원 " + g + "개, ");
+		System.out.print("10원 " + h + "개> 입니다.");
+	}
+}
+
+

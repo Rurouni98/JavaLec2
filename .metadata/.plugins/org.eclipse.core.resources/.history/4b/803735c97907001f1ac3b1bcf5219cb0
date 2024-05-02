@@ -1,0 +1,10 @@
+package chap07_class.car;
+
+public class CarConstructor {
+	public String company;
+	public String model;
+	public String color;
+	public int price;
+	
+	
+}

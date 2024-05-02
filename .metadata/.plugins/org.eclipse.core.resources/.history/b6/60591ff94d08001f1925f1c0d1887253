@@ -1,0 +1,14 @@
+package chap10_polymorphism;
+
+import chap10_polymorphism.member.Member;
+
+public class _02_Object {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Member member = new Member(1, "bit", "1234", "bit@bit.com", "bitcamp");
+		
+		System.out.println(member);
+	}
+
+}

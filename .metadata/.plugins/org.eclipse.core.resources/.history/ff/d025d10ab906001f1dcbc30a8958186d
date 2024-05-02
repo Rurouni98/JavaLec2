@@ -1,0 +1,15 @@
+package chap06_method;
+
+import chap06_method.calc.CompleteCalculator;
+
+public class _04_UseOfCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CompleteCalculator cCalc = new CompleteCalculator();
+		
+		int result;
+		double dResult;
+	}
+
+}

@@ -1,0 +1,15 @@
+package chap06_method;
+
+import chap06_method.score.Score;
+
+public class _05_Score {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Score score = new Score();
+		
+		int studentCnt;
+		
+	}
+
+}

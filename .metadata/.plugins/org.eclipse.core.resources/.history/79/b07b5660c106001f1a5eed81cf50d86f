@@ -1,0 +1,5 @@
+package chap06_method.score;
+
+public class Score {
+	// int형 배열을 매개변수로 받아서 
+}

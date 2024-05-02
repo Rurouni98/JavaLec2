@@ -1,0 +1,15 @@
+package chap09_inherit.animal;
+
+public class Animal {
+	int age;
+	String size;
+	boolean hasWing;
+	
+	public Animal() {
+		
+	}
+	
+	public Animal(int age, String size, int legCnt, boolean hasWing) {
+		
+	}
+}

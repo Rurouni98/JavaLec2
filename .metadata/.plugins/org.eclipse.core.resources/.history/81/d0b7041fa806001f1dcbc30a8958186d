@@ -1,0 +1,20 @@
+package chap06_method;
+
+import chap06_method.calc.ReturnCalculator;
+
+public class _02_ReturnType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ReturnCalculator rCalc = new ReturnCalculator();
+		
+		// 1. 결과 값이 없는 메소드 호출(사용)
+		rCalc.add();
+		
+		// 2. 결과 값이 있는 메소드 호출(사용)
+		// 결과 값이 있는 메소드를 이런식을 호출해서 사용하면
+		// 결과 값을 의미없게 사용하게 된다.
+		rCalc.div();
+	}
+
+}

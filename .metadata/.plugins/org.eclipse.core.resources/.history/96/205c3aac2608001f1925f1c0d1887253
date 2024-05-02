@@ -1,0 +1,14 @@
+package chap08_static.car;
+
+public class CarStatic {
+	// 1. 인스턴스 변수 선언
+	// 인스턴스 변수는 객체가 생성된 후에 사용가능
+	public String company;
+	public String model;
+	public String color;
+	public int price;
+	
+	// 2. 클래스 변수 선언(static 변수)
+	// 클래스 변수는 컴파일러가 클래스를 읽으면서 메모리에 바로 저장되어 객체 생성없이 사용가능
+	public static String grade;
+}

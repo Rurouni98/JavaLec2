@@ -1,0 +1,27 @@
+package test;
+
+import java.util.Scanner;
+
+public class TestOnly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner stdIn = new Scanner(System.in);
+		
+		int[] intArr4 = new int[10];
+		System.out.println("정수 10개를 입력해주세요.");
+		
+		for(int i = 0; i < intArr4.length; i++) {
+			System.out.print((i + 1) + "번째 입력값: ");
+			intArr4[i] = stdIn.nextInt();
+		}
+		
+		System.out.println("입력된 값 중 2 또는 3의 배수: ");
+		for(int j = 0; j < intArr4.length; j++) {
+			if(intArr4[j] % 2 == 0 || intArr4[j] % 3 ==0) {
+				System.out.println(intArr4[j]);
+			}
+		}
+	}
+
+}

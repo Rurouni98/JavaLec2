@@ -1,0 +1,11 @@
+package chap10_polymorphism.tv;
+
+public class SamsungTv extends Tv {
+	public SamsungTv() {
+		super();
+	}
+	
+	public SamsungTv(int lastChannel) {
+		super(lastChannel);
+	}
+}

@@ -1,0 +1,7 @@
+package chap06_method;
+
+import chap06_method.calc.AccessModifierCalculator;
+
+public class AccessModifierCalculatorChild extends AccessModifierCalculator{
+	
+}

@@ -1,0 +1,6 @@
+package chap06_method.calc;
+
+public class ParameterCalculator {
+	// 3. 매개변수: 메소드가 받아서 처리할 대상이 되는 값을 의미한다.
+	// 매개변수의 지정 위치는 
+}

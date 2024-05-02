@@ -1,0 +1,6 @@
+package chap06_method.calc;
+
+public class AccessModifierCalculator {
+	// 1. 접근제어자
+	// 접근제어자는 
+}

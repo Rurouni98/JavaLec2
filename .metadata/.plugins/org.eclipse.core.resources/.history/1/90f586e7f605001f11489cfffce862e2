@@ -1,0 +1,14 @@
+package chap05_array;
+
+public class _01_CreateArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 배열의 선언
+		// 자료형[] 변수명(배열명) = new 자료형[배열의 길이(저장될 값의 개수)];
+		// 기본 자료형 또는 참조타입의 자료형으로도 배열을 생성할 수 있다.
+		
+		
+	}
+
+}

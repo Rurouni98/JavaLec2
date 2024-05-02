@@ -1,0 +1,13 @@
+package chap05_array;
+
+public class _07_DeepCopy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = {1, 2, 3, 4, 5};
+		
+		// 2. 깊은 복사
+		// 깊은 복사는 
+	}
+
+}

@@ -1,0 +1,10 @@
+package chap05_array;
+
+public class _05_AdvancedFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

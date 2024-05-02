@@ -1,0 +1,9 @@
+package chap10_polymorphism.tv;
+
+public class LgTv extends Tv {
+	@Override
+	public void powerOn() {
+		System.out.println("QLED");
+		super.powerOn();
+	}
+}

@@ -1,0 +1,46 @@
+package chap99_homework.homework03;
+
+import java.util.Scanner;
+
+public class UseOfPhoneInfo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		while(true) {
+			System.out.println("-------연락처--------");
+			System.out.println("1. 연락처 입력");
+			System.out.println("2. 모든 연락처 출력");
+			System.out.println("3. 인덱스로 연락처 검색");
+			System.out.println("4. 종료");
+			
+			int menuSelect = sc.nextInt();
+			boolean isExit = false;
+			
+			switch(menuSelect) {
+				case 1:
+					
+					break;
+				case 2:
+					
+					break;
+				case 3:
+					
+					break;
+				case 4:
+					isExit = true;
+					break;
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package chap09_inherit.car;
+
+// 1. extends 키워드로 상속받은 클래스의 속성과 메소드를 모두 사용할 수 있다.
+public class HyundaiCarInherit extends Car {
+
+}

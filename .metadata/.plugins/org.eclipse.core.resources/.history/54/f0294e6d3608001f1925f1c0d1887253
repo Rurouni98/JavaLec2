@@ -1,0 +1,14 @@
+package chap09_inherit.board;
+
+public class FreeBoard extends Board {
+	String attachFile;
+
+	public FreeBoard(long id, String title, String content, String writer, 
+			String creDate, String attachFile) {
+		super(id, title, content, writer, creDate);
+		this.attachFile = attachFile;
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

@@ -1,0 +1,8 @@
+package chap05_array;
+
+public class _03_ArrayExample {
+	
+	public static void main(String[] args) {
+		
+	}
+}

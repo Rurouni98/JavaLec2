@@ -1,0 +1,11 @@
+package chap04_controlstatement;
+
+public class _05_InfiniteWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Scanner: 사용자의 입력 값을 받아주는 클래스
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

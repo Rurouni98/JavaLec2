@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="chap06_method.calc.ReturnCalculator"/>
+    <fullyQualifiedTypeName name="chap06_method.calc.AccessModifierCalculator"/>
+    <fullyQualifiedTypeName name="chap06_method.calc.ParameterCalculator"/>
+    <fullyQualifiedTypeName name="chap06_method.calc.CompleteCalculator"/>
+    <fullyQualifiedTypeName name="chap06_method.score.Score"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="chap06_method.calc.OverloadingCalculator"/>
+    <fullyQualifiedTypeName name="chap99_homework.homework02.RockScissPaper"/>
+    <fullyQualifiedTypeName name="chap07_class.car.CarConstructor"/>
+    <fullyQualifiedTypeName name="chap07_class.game.Numbaseball"/>
+    <fullyQualifiedTypeName name="chap08_static.car.CarStatic"/>
+    <fullyQualifiedTypeName name="chap09_inherit.car.HyundaiCarInherit"/>
+    <fullyQualifiedTypeName name="chap09_inherit.car.Car"/>
+    <fullyQualifiedTypeName name="chap10_polymorphism.member.Member"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.board.Board"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.board.FreeBoard"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.board.NoticeBoard"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.tv.Tv"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.tv.LgTv"/>
+    <fullyQualifiedTypeName name="chap11_abstraction.tv.SamsungTv"/>
+</qualifiedTypeNameHistroy>

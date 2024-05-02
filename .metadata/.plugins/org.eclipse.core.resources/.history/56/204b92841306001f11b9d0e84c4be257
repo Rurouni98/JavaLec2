@@ -1,0 +1,16 @@
+package homework;
+
+import java.util.Scanner;
+
+public class _04_Advance1_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 2번 문제
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("1~99 사이의 정수를 입력해주세요.");
+		int num = sc.nextInt();
+	}
+
+}

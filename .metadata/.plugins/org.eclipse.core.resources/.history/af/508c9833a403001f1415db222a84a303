@@ -1,0 +1,13 @@
+package chap04_controlstatement;
+
+public class _03_ForStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 1 ~ 100까지의 합
+		int sum = 0;
+		
+		
+	}
+
+}

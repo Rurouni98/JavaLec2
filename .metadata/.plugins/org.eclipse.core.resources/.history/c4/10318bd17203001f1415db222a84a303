@@ -1,0 +1,11 @@
+package chap02_variables;
+
+public class _06_FloatDouble {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. float 타입의 변수 선언 및 초기화
+		float fNum1 = 3.14f;
+	}
+
+}

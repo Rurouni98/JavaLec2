@@ -1,0 +1,10 @@
+package chap11_abstraction;
+
+public class _01_Abstraction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

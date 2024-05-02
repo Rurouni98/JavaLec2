@@ -1,0 +1,34 @@
+package chap07_class.student;
+
+public class Student {
+	public String name;
+	public int age;
+	public String major;
+	
+	public Student() {
+		
+	}
+	
+	public Student(String name) {
+		this.name = name;
+	}
+	
+	public Student(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	public Student(String name, int age, String major) {
+		this.name = name;
+		this.age = age;
+		this.major = major;
+	}
+	
+	public void printStudentInfo() {
+	
+	
+	
+	
+	
+	
+}

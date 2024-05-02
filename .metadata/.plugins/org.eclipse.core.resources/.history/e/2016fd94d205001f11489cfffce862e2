@@ -1,0 +1,28 @@
+package chap04_controlstatement;
+
+public class _06_DoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. do-while: 조건식을 따지기 전에 소스코드를 무조건 1회 실행
+		do {
+			System.out.println("무조건 1회 실행");
+		} while(10 < 5);
+		
+		// while문에서는 조건이 false면 1회도 실행이 되지 않는다.
+		int i = 0;
+		while() {
+			System.out.println();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

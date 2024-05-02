@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=JavaProgramming/src&lt;chap09_inherit.car{Car.java[Car" modifiers="1025" timestamp="1714617908139"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap09_inherit.board{Board.java[Board" modifiers="1" timestamp="1714621354747"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap10_polymorphism.tv{Tv.java[Tv" modifiers="1" timestamp="1714628069891"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap11_abstraction.academy{Academy.java[Academy" modifiers="1025" timestamp="1714633186587"/>
+</typeInfoHistroy>

@@ -1,0 +1,5 @@
+package chap09_inherit.car;
+
+public class KiaCarInherit {
+
+}

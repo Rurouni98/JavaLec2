@@ -1,0 +1,13 @@
+package chap05_array;
+
+import java.util.Random;
+
+public class _04_ArrayExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 자바에서 랜덤 값 생성방법 1: Random 클래스 사용
+		// Random.nextInt(바운드):
+	}
+
+}

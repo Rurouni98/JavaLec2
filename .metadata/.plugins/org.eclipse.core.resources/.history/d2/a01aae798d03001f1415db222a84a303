@@ -1,0 +1,19 @@
+package test;
+
+class Operator {
+	int add(int a, int b) {
+		int result;
+		result = this.add(a, b);
+		return result; 
+	}
+}
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Operator a = new Operator();
+		int test1 = a.add(1,3);
+	}
+
+}

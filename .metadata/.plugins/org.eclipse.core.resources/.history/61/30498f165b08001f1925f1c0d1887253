@@ -1,0 +1,16 @@
+package chap11_abstraction;
+
+import chap11_abstraction.board.Board;
+import chap11_abstraction.board.FreeBoard;
+
+public class _02_AbstractBoard {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Board board = new FreeBoard(1, "안녕하세요.", "추상화", "고기천", "2024-05-02", "첨부파일1");
+		board.post();
+		board.modify();
+		board.delete();
+	}
+
+}

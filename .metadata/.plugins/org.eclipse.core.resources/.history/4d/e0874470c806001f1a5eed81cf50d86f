@@ -1,0 +1,6 @@
+package chap06_method.calc;
+
+public class OverloadingCalculator {
+	// 기본적으로 동일한 메소드명으로 메소드를 여러개 생성할 수 없는데
+	// 오버로딩을 통해서 동일한 이름의 메소드를 여러개 생성할 수 있다.
+}

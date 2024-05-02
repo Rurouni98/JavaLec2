@@ -1,0 +1,12 @@
+package chap09_inherit.car;
+
+public class Car {
+	public String company;
+	public String model;
+	public String color;
+	public int price;
+	
+	public void carInfo() {
+		
+	}
+}

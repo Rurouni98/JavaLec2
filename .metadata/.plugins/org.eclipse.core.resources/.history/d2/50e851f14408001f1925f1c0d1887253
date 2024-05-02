@@ -1,0 +1,9 @@
+package chap10_polymorphism.tv;
+
+public class Tv {
+	public int lastChannel;
+	
+	public Tv() {
+		lastChannel = 1;
+	}
+}

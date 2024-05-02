@@ -1,0 +1,18 @@
+package chap99_homework.homework03;
+
+import java.util.Scanner;
+
+public class UseOfPhoneInfo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		while(true) {
+			System.out.println("-------연락처--------");
+			System.out.println("1. 연락처 입력");
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,28 @@
+package test;
+
+class Operator {
+	int add(int a, int b) {
+		int result = a + b;
+		return result; 
+	}
+	void convertChar(char a) {
+		if ((int)a >= 65&&(int)a <= 90) {
+			System.out.println((char)(a + 32));
+		} else if((int)a >= 97&&(int)a <= 122) {
+			System.out.println((char)(a - 32));
+		} else
+			System.out.println("영문자가 아닙니다.");
+	}
+}
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Operator a = new Operator();
+		int test = a.add(1,3);
+		
+		System.out.println(test);
+	}
+
+}

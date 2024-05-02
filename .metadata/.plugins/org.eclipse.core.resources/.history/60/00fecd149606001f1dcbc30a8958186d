@@ -1,0 +1,10 @@
+package chap05_array;
+
+public class _08_Lotto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 정수 7개를 저장할 수 있는 배열 생성
+	}
+
+}

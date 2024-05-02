@@ -1,0 +1,10 @@
+package chap07_class;
+
+public class _05_PlayNumbaseball {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package chap06_method;
+
+import chap06_method.calc.AccessModifierCalculator;
+
+// ctrl + space 누르면 만든 클래스 중에 선택지 나옴
+public class AccessModifierCalculatorChild extends AccessModifierCalculator {
+	AccessModifierCalculator ac = new AccessModifierCalculator();
+}

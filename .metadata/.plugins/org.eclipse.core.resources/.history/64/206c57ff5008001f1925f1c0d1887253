@@ -1,0 +1,7 @@
+package chap11_abstraction.academy;
+
+// abstract 키워드를 사용해서 추상클래스를 생성한다.
+// 추상클래스는 인스턴스 변수, 인스턴스 메소드와 추상메소드를 가질 수 있는 클래스이다.
+public abstract class Academy {
+
+}

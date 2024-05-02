@@ -1,0 +1,11 @@
+package chap10_polymorphism.tv;
+
+public class LgTv extends Tv {
+	@Override
+	public void powerOn() {
+		System.out.println("QLED");
+		// super 키워드로 생성자를 호출할 때는 항상 최상단에서 사용해야하지만
+		// 인스턴스 메소드를 사용할 때 위치는 중요하지 않다.
+		super.powerOn();
+	}
+}

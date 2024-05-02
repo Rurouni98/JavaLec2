@@ -1,0 +1,17 @@
+package chap10_polymorphism.tv;
+
+public class Tv {
+	public int lastChannel;
+	
+	public Tv() {
+		lastChannel = 1;
+	}
+	
+	public void powerOn() {
+		System.out.println("TV의 전원을 켭니다.");
+	}
+	
+	public void powerOff() {
+		System.out.println("TV의 전원을 끕니다.");
+	}
+}

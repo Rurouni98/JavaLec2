@@ -1,0 +1,32 @@
+package homework;
+
+public class _02_Middle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	// 1번 문제
+	public static int[] revArr(int[] numArr) {
+		int[] revArr = new int[numArr.length - 1];
+		
+		for(int i = numArr.length - 1; i > 0; i--) {
+			revArr[numArr.length - i - 1] = numArr[i];
+			}
+		
+		return revArr;
+	}
+	
+	// 2번 문제
+	public static char[] revChar(char[] charArr) {
+		for(char i : charArr) {
+			if(i > 'a' && i < 'z')
+				Character.toUpperCase(i + 1);
+			else
+		}
+	}
+	
+}
+
+

@@ -1,0 +1,38 @@
+package chap07_class.car;
+
+public class Car {
+	// 1. 자동차에 속성들(인스턴스 변수, 필드, 어트리뷰트...)
+	// 제조사
+	public String company;
+	// 색상
+	public String color;
+	// 모델
+	public String model;
+	// 가격
+	public int price;
+	
+	// 2. 자동차의 기능들(메소드, 펑션, 함수....)
+	// 시동을 켠다
+	public void turnOn() {
+		System.out.println("시동을 켠다.");
+	}
+	// 시동을 끈다
+	public void turnOff() {
+		System.out.println("시동을 끈다.");
+	}
+	// 속도를 높인다.
+	public void speedUp() {
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

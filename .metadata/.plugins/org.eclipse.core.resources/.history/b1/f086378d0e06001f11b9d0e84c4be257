@@ -1,0 +1,11 @@
+package homework;
+
+public class _03_Advance1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1번 문제
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

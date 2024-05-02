@@ -1,0 +1,8 @@
+package chap10_polymorphism.tv;
+
+public class SamsungTv extends Tv {
+	@Override
+	public void powerOn() {
+		
+	}
+}

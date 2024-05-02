@@ -1,0 +1,21 @@
+package chap09_inherit.board;
+
+public class NoticeBoard extends Board {
+	boolean isAdmin = false;
+
+	public NoticeBoard(long id, String title, String content, String writer, 
+			String creDate, boolean isAdmin) {
+		super(id, title, content, writer, creDate);
+		this.isAdmin = isAdmin;
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public void post() {
+		if(this.isAdmin) {
+			
+		} else {
+			
+		}
+	}
+}

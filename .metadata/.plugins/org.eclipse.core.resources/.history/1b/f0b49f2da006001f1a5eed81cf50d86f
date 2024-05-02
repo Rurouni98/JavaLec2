@@ -1,0 +1,10 @@
+package chap06_method;
+
+public class _01_AccessModifier {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 
+	}
+
+}

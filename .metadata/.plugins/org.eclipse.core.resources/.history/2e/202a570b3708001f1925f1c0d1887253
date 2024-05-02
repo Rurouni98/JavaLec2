@@ -1,0 +1,7 @@
+package chap09_inherit.board;
+
+public class NoticeBoard extends Board {
+	boolean isAdmin = false;
+	
+	
+}
