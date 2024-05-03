@@ -6,7 +6,7 @@ public class ArrayUtility {
 		double[] intToDouble = new double[source.length];
 		
 		for(int i = 0; i < source.length; i++) {
-			intToDouble[i] = (double)(source[i]);
+			intToDouble[i] = (double)source[i];
 		}
 		
 		return intToDouble;
@@ -17,7 +17,7 @@ public class ArrayUtility {
 		int[] doubleToInt = new int[source.length];
 		
 		for(int i = 0; i < source.length; i++) {
-			doubleToInt[i] = (int)(source[i]);
+			doubleToInt[i] = (int)source[i];
 		}
 		
 		return doubleToInt;

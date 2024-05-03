@@ -25,18 +25,26 @@ public class ArrayUtility2 {
 			for(int j = 0; j < s2.length; j++) {
 				if(s1[i] == s2[j]) {
 					removeIndex[index++] = i;
+					break;
 				}
 			}
 		}
 		
-		int removeLength = s1.length - index;
-		int[] removeArr = new int[removeLength];
+		int[] returnArr = new int[s1.length - index];
 		
-		for(int k = 0; k < removeLength; k++) {
-			removeArr[k] = removeIndex[k];
+		index = 0;
+		int returnIndex = 0;
+		
+		for(int k = 0; k < s1.length; k++) {
+			if(removeIndex[index] == k)  {
+				index++;
+				continue;
+			}
+			
+			returnArr[returnIndex++] = s1[k];
 		}
 		
-		return removeArr;
+		return returnArr;
 		
 	}
 	

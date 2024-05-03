@@ -1,0 +1,7 @@
+package chap12_interface.multiinherit;
+
+public class Father {
+	public void repair() {
+		
+	}
+}

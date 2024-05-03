@@ -21,4 +21,15 @@
     <fullyQualifiedTypeName name="chap11_abstraction.tv.Tv"/>
     <fullyQualifiedTypeName name="chap11_abstraction.tv.LgTv"/>
     <fullyQualifiedTypeName name="chap11_abstraction.tv.SamsungTv"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="chap99_homework.homework04.RegularEmployee"/>
+    <fullyQualifiedTypeName name="chap99_homework.homework04.TempEmployee"/>
+    <fullyQualifiedTypeName name="chap99_homework.homework04.ContractEmployee"/>
+    <fullyQualifiedTypeName name="chap12_interface.multiflex.SeoulMultiflexStadium"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.Tv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.SamsungTv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.LgTv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.ElectronicDevice"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="homework.homework5.middle.Reverse"/>
 </qualifiedTypeNameHistroy>

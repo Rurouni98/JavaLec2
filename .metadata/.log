@@ -962,3 +962,288 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-05-03 11:56:18.118
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package chap99_homework.homework04;
+
+import java.util.Scanner;
+
+public class UseOfEmployee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee[] empArr = new Employee[100];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int eno;
+		String name;
+		int pay;
+		int bonus;
+		int hireYear;
+		int workDay;
+		
+		int menuNum;
+		int empIndex = 0;
+		
+		do {
+			System.out.print("*** 메뉴 선택 ***\n1. 정규직 저장\n2. 임시직 저장\n3. 계약직 저장\n4. 전체 사원 정보 출력"
+					+ "\n5. 월급 계산 출력\n6. 프로그램 종료\n" );
+	
+			menuNum = sc.nextInt();
+	
+			switch(menuNum) {
+			case 1:
+				System.out.println("사번을 입력하세요.");
+				eno = sc.nextInt();
+				System.out.println("이름을 입력하세요.");
+				sc.nextLine();
+				name = sc.nextLine();
+				System.out.println("급여를 입력하세요.");
+				pay = sc.nextInt();
+				System.out.println("보너스를 입력하세요.");
+				bonus = sc.nextInt();
+			
+				empArr[empIndex++] = new RegularEmployee(eno, name, pay, menuNum, bonus);
+				break;
+			
+			case 2:
+				System.out.println("사번을 입력하세요.");
+				eno = sc.nextInt();
+				System.out.println("이름을 입력하세요.");
+				sc.nextLine();
+				name = sc.nextLine();
+				System.out.println("급여를 입력하세요.");
+				pay = sc.nextInt();
+				System.out.println("근무년수를 입력하세요.");
+				hireYear = sc.nextInt();
+			
+				empArr[empIndex++] = new TempEmployee(eno, name, pay, menuNum, hireYear);
+				break;
+			
+			case 3:
+				System.out.println("사번을 입력하세요.");
+				eno = sc.nextInt();
+				System.out.println("이름을 입력하세요.");
+				sc.nextLine();
+				name = sc.nextLine();
+				System.out.println("급여를 입력하세요.");
+				pay = sc.nextInt();
+				System.out.println("근무일수를 입력하세요.");
+				workDay = sc.nextInt();
+			
+				empArr[empIndex++] = new ContractEmployee(eno, name, pay, menuNum, workDay);
+				break;
+			
+			case 4:
+				showAllEmpInfo(empArr);
+				break;
+			
+			case 5:
+				System.out.println("검색할 사원의 사번을 입력하세요.");
+				int searchNum = sc.nextInt();
+			
+				searchEmpInfo(empArr, searchNum);
+				break;
+		
+			case 6:
+				System.out.println("프로그램 종료");
+				sc.close();
+				System.exit(0);
+			
+			default:
+				System.out.println("잘못 입력하셨습니다. 다시 입력해주세요.");
+				continue;
+			}
+			
+			System.out.println("----------------------------");
+			
+		} while(true);
+		
+		
+		/*
+		 * *** 메뉴 선택 ***
+		 * 1. 정규직 저장
+		 * 2. 임시직 저장
+		 * 3. 계약직 저장
+		 * 4. 전체 사원 정보 출력
+		 * 5. 월급 계산 출력
+		 * 6. 프로그램 종료
+		 *
+		 * 1번 선택 시
+		 * 사번을 입력하세요.
+		 * 1
+		 * 이름을 입력하세요.
+		 * 홍길동
+		 * 급여를 입력하세요.
+		 * 3000
+		 * 보너스를 입력하세요.
+		 * 300
+		 * 입력한 내용을 empArr에 저장
+		 * 
+		 * 2번 선택 시
+		 * 사번을 입력하세요.
+		 * 2
+		 * 이름을 입력하세요.
+		 * 임꺽정
+		 * 급여를 입력하세요.
+		 * 3000
+		 * 근무년수를 입력하세요.
+		 * 7
+		 * 입력한 내용을 empArr에 저장
+		 * 
+		 * 3번 선택 시
+		 * 사번을 입력하세요.
+		 * 2
+		 * 이름을 입력하세요.
+		 * 임꺽정
+		 * 급여를 입력하세요.
+		 * 20
+		 * 근무일수를 입력하세요.
+		 * 20
+		 * 입력한 내용을 empArr에 저장
+		 * 
+		 * 4번 선택 시
+		 * empArr에 저장되어 있는 모든 사원의 정보출력
+		 * showEmployeeInfo() 메소드 사용
+		 * 
+		 * 5번 선택 시
+		 * 검색할 사원의 사번을 입력하세요.
+		 * 1
+		 * 입력한 사번에 해당하는 사원의 정보 출력(showEmployeeInfo() 메소드 사용)
+		 * 
+		 * 6번 선택 시
+		 * 프로그램 종료
+		 * 
+		 * 다른 번호가 입력되면
+		 * 잘못 입력하셨습니다. 출력하고 다시 입력할 수 있도록 메뉴 표출
+		 * */
+	}
+	
+	public static Employee generateEmployee()
+	
+	public static void showAllEmpInfo(Employee[] empArr) {
+		for(Employee i : empArr) {
+			i.showEmployeeInfo();
+		}
+	}
+	
+	public static void searchEmpInfo(Employee[] empArr, int searchNum) {
+		for(int i = 0; i < empArr.length; i++) {
+			if(empArr[i].getEno() == searchNum) {
+				empArr[i].showEmployeeInfo();
+			} else {
+				System.out.println("입력하신 사번의 사원이 존재하지 않습니다.");
+			}
+		}
+	}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3434)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:712)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3477)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1521)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:603)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1137)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:169)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:93)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-05-03 11:56:18.120
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3434)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:712)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3477)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1521)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:603)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1137)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:169)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:93)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-05-03 11:56:18.121
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3434)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:712)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3477)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1521)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:603)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:194)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1137)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:169)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:93)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SESSION 2024-05-03 12:00:41.105 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 12:00:42.124
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-03 12:00:42.721
+!MESSAGE Logback config file: D:\lecture\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-03 12:00:45.671
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bitcamp'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
