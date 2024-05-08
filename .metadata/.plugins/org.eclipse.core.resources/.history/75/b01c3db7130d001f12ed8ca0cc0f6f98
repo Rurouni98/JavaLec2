@@ -1,6 +1,12 @@
+<<<<<<<< HEAD:.metadata/.plugins/org.eclipse.core.resources/.history/75/b01c3db7130d001f12ed8ca0cc0f6f98
 package homework.homework7.middle;
 
 public class BitRepeat {
+========
+package chap99_homework.homework04;
+
+public class UseOfArrayUtility2 {
+>>>>>>>> 98816d228dee406edd1d4b648012e9b5c375baaa:.metadata/.plugins/org.eclipse.core.resources/.history/4c/30a7c12fe808001f15f19cbf69be14e8
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,12 @@
+<<<<<<<< HEAD:.metadata/.plugins/org.eclipse.core.resources/.history/12/c0f174f1070d001f12ed8ca0cc0f6f98
 package chap16_usefulclass;
 
 public class _12_BoxingUnboxing {
+========
+package homework.homework5.middle;
+
+public class TestReverse {
+>>>>>>>> 98816d228dee406edd1d4b648012e9b5c375baaa:.metadata/.plugins/org.eclipse.core.resources/.history/c1/9042cb6f2009001f1ceecbee245e5299
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

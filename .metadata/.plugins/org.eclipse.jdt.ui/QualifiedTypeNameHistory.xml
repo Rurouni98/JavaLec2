@@ -32,6 +32,7 @@
     <fullyQualifiedTypeName name="chap12_interface.device.ElectronicDevice"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="homework.homework5.middle.Reverse"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="chap99_homework.homework05.InputStudentInfo"/>
     <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass.Mul"/>
     <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass.Div"/>
@@ -44,4 +45,6 @@
     <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
     <fullyQualifiedTypeName name="chap16_usefulclass._01_Object.ObjectExample"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+=======
+>>>>>>> 98816d228dee406edd1d4b648012e9b5c375baaa
 </qualifiedTypeNameHistroy>
