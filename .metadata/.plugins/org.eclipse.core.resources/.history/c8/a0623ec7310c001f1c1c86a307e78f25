@@ -1,0 +1,8 @@
+package chap14_objectarray;
+
+public class _01_ClassArray {
+	public static void main(String[] args) {
+		// 1. 객체 배열 선언
+		Car[] carArr = new Car[100];
+	}
+}

@@ -1,0 +1,8 @@
+package chap14_objectarray.car;
+
+public class CarStat {
+	public String company;
+	public String model;
+	public int price;
+	public String color;
+}

@@ -21,4 +21,27 @@
     <fullyQualifiedTypeName name="chap11_abstraction.tv.Tv"/>
     <fullyQualifiedTypeName name="chap11_abstraction.tv.LgTv"/>
     <fullyQualifiedTypeName name="chap11_abstraction.tv.SamsungTv"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="chap99_homework.homework04.RegularEmployee"/>
+    <fullyQualifiedTypeName name="chap99_homework.homework04.TempEmployee"/>
+    <fullyQualifiedTypeName name="chap99_homework.homework04.ContractEmployee"/>
+    <fullyQualifiedTypeName name="chap12_interface.multiflex.SeoulMultiflexStadium"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.Tv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.SamsungTv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.LgTv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.ElectronicDevice"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="homework.homework5.middle.Reverse"/>
+    <fullyQualifiedTypeName name="chap99_homework.homework05.InputStudentInfo"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass.Mul"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass.Div"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.LocalNestedClass"/>
+    <fullyQualifiedTypeName name="chap14_objectarray.car.Car"/>
+    <fullyQualifiedTypeName name="chap14_objectarray.car.HyundaiCar"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="chap16_usefulclass._01_Object.ObjectExample"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 </qualifiedTypeNameHistroy>

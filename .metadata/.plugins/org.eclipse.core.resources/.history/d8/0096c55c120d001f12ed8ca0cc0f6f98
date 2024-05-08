@@ -1,0 +1,9 @@
+package homework.homework7.basic;
+
+public class FilloutA {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

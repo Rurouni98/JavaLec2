@@ -1,0 +1,47 @@
+package chap12_interface.multiflex;
+
+public class SeoulMultiflexStadium implements MultiFlexStadium {
+
+	@Override
+	public void getSportsSchedule(int month) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public int getSportsTicketPrice(int people) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void getSupporterItem(int people) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void printSchedule(int month) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void getTicketPrice(int people) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void getRemainSeat() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void playSportsgameOrConcert() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

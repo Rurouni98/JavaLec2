@@ -1,0 +1,22 @@
+package homework.homework6.middle;
+
+import java.util.Scanner;
+
+public class MiddleString {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("문자를 입력해주십시오.");
+		String userStr = sc.nextLine();
+		
+		int userLength = userStr.length();
+		
+		if(userStr.length() % 2 == 0) {
+			userStr.charAt()
+		}
+		
+		
+	}
+
+}

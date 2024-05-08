@@ -1,7 +1,0 @@
-package homework;
-
-public class _02_Basic {
-	public static void add(int a, int b) {
-		
-	}
-}

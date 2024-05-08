@@ -1,0 +1,12 @@
+package chap16_usefulclass;
+
+public class _12_BoxingUnboxing {
+
+	public static void main(String[] args) {
+		int num1 = 100;
+		
+		// 1. 박싱(boxing): 기본 타입의 값을 객체형태로 포장해주는 작업
+		
+	}
+
+}

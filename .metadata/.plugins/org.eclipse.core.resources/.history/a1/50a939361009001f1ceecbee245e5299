@@ -1,0 +1,47 @@
+package chap12_interface.multiflex;
+
+public class SeoulMultiflexStadium implements MultiFlexStadium {
+
+	@Override
+	public void getSportsSchedule(int month) {
+		// TODO Auto-generated method stub
+		System.out.println(month + "월에 예정된 경기는 총 5경기입니다.");
+	}
+
+	@Override
+	public int getSportsTicketPrice(int people) {
+		// TODO Auto-generated method stub
+		return 7000 * people;
+	}
+
+	@Override
+	public void getSupporterItem(int people) {
+		// TODO Auto-generated method stub
+		System.out.println(people + "명의 아이템 구매 가격은 " + people * 15000 + "원입니다.");
+	}
+
+	@Override
+	public void printSchedule(int month) {
+		// TODO Auto-generated method stub
+		System.out.println(month + "월에 예정된 콘서트는 총 2건입니다.");
+	}
+
+	@Override
+	public int getTicketPrice(int people) {
+		// TODO Auto-generated method stub
+		return people * 96000
+	}
+
+	@Override
+	public void getRemainSeat() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void playSportsgameOrConcert() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

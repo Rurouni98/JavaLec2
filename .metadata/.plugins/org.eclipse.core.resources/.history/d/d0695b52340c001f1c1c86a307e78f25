@@ -1,0 +1,17 @@
+package chap14_objectarray.car;
+
+public class HyundaiCar extends CarStat implements CarInterface {
+	public HyundaiCar() {
+		super();
+	}
+	
+	public HyundaiCar(String model, int price , String color) {
+		
+	}
+	
+	@Override
+	public void carInfo() {
+
+	}
+
+}

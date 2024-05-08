@@ -1,0 +1,23 @@
+package chap12_interface.board;
+
+public class NoticeBoard implements Board {
+
+	@Override
+	public void post() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void modify() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

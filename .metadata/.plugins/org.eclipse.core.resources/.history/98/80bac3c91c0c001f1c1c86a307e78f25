@@ -1,0 +1,44 @@
+package chap13_nestedclass.nestedclass;
+
+// 중첩클래스는 클래스 안에 다른 클래스를 하나 더 정의하는 것
+// 중첩클래스를 감싸고 있는 클래스를 외부 클래스라고 부르며 중첩클래스는 내부클래스라고도 한다.
+// 중첩클래스의 종류는 정적 중첩 클래스, 인스턴스 중첩 클래스, 지역 중첩 클래스, 익명 중첩 클래스, 익명 중첩 클래스가 있다.
+public class NestedClass {
+	// 1. 멤버변수(인스턴스 변수, 어트리뷰트, 속성, ...)
+	public int num1;
+	public int num2;
+	
+	// 2. 클래스 변수(정적 변수, 스태틱 변수)
+	public static int num3;
+	
+	// 3. 인스턴스 메소드
+	public int add(int a, int b) {
+		return a + b;
+	}
+	
+	// 4. 클래스 메소드(스태틱 메소드, 정적 메소드)
+	public static int sub(int a, int b) {
+		return a - b;
+	}
+	
+	// 5. 정적 중첩 클래스(스태틱 중첩 클래스)
+	public static class Mul {
+		// 5-1. 정적 중첩 클래스의 멤버변수
+		public int num4;
+		public int num5;
+		
+		// 5-2. 정적 중첩 클래스의 클래스 변수
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

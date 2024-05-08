@@ -1,0 +1,13 @@
+package chap16_usefulclass;
+
+public class _07_StringBuffer02 {
+
+	public static void main(String[] args) {
+		StringBuffer sb1 = new StringBuffer(100);
+		StringBuffer sb2 = new StringBuffer("bitcamp");
+		StringBuffer sb3 = new StringBuffer();
+		
+		// 1. append: 기존 StringBuffer에 새로운 문자열을 추가하여 
+	}
+
+}

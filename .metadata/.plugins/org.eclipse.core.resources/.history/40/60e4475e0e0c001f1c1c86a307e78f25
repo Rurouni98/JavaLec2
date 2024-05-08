@@ -1,0 +1,5 @@
+package chap99_homework.homework05;
+
+public class InputSubjectScore {
+	// 과목과 기말고사를 입력하는 메소드
+}

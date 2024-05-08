@@ -2,7 +2,7 @@ package homework.homework4.advance;
 
 public class ArrayUtility2Test {
 	public static void main(String[] args) {
-		int[] s1 = {1, 2, 3, 4, 5, 6};
+		int[] s1 = {1, 2, 3, 4, 5, 6, 7};
 		int[] s2 = {2, 4, 6, 8, 10};
 		
 		int[] concat = ArrayUtility2.concat(s1, s2);

@@ -1,7 +1,0 @@
-package chap05_array;
-
-public class _06_ShallowCopy {
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,0 +1,15 @@
+package chap16_usefulclass;
+
+public class String01 {
+	public static void main(String[] args) {
+		// 1. String 객체 생성
+		String str1 = "bitcamp";
+		String str2 = new String("bitcamp");
+		String str3 = new String(new char[] {'b', 'i', 't', 'c', 'a', 'm', 'p'});
+		
+		// 2. String은 불변성을 가지고 있어서 값을 변경했을 때
+		// 메모리에 저장된 문자열 값을 직접 변경하지 않고
+		// 새로운 문자열을 메모리에 새로 저장한다.
+		System.out.println(str1.hashCode());
+	}
+}

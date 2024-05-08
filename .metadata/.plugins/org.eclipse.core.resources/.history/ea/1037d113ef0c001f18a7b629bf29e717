@@ -1,0 +1,23 @@
+package chap16_usefulclass;
+
+public class _07_StringBuffer02 {
+
+	public static void main(String[] args) {
+		StringBuffer sb1 = new StringBuffer(100);
+		StringBuffer sb2 = new StringBuffer("bitcamp");
+		StringBuffer sb3 = new StringBuffer();
+		
+		// 1. append: 기존 StringBuffer에 새로운 문자열을 추가하여 StringBuffer 타입으로 리턴
+		// StringBuffer의 append는 원본 데이터를 수정한다.
+		// sb1에 저장되어 있던 문자열이 수정된다.
+		sb1.append("navercloud");
+		
+		System.out.println(sb1);
+		
+		// String은 원본 데이터는 수정되지 않는다.
+		String str = "";
+		str.concat("navercloud");
+		System.out.println(str);
+	}
+
+}

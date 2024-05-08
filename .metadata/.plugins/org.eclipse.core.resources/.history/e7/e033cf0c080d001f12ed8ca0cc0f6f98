@@ -1,0 +1,9 @@
+package chap16_usefulclass;
+
+public class _12_BoxingUnboxing {
+
+	public static void main(String[] args) {
+		int num1 = 100;
+	}
+
+}

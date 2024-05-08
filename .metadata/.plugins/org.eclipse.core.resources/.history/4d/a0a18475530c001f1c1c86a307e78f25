@@ -1,0 +1,7 @@
+package homework.homework6.middle;
+
+public class CharToWords {
+	public static void main(String[] args) {
+		
+	}
+}

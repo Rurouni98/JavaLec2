@@ -1,0 +1,9 @@
+package homework.homework5.middle;
+
+public class Reverse {
+	String reverseString(String str) {
+		char[] rightArr = new char[str.length()];
+		
+		
+	}
+}

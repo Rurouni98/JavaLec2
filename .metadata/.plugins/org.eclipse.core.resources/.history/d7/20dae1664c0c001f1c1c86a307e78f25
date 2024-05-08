@@ -1,0 +1,13 @@
+package homework.homework6.basic;
+
+import java.util.Scanner;
+
+public class StringCnt {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String userStr = sc.nextLine(); 
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package chap15_exception;
+
+public class _05_GenerateException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void checkUserIdAndUserPw(String userId, String userPw) {
+		String dbUserId = "bit";
+		String dbUserPw = "1111";
+		
+		if(!userId.equals(dbUserId)) {
+			// 예외 발생시키기
+			// throw new 예외클래스(getMessage메소드에서 표출할 메시지)
+			throw new RuntimeException("id not exist");
+		}
+		
+		if(!userPw.equals(dbUserPw)) {
+			
+		}
+	}
+	
+}

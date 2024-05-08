@@ -1,0 +1,15 @@
+package chap15_exception;
+
+public class _05_GenerateException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void checkUserIdAndUserPw(String userId, String userPw) {
+		String dbUserId = "bit";
+		String dbUserPw = "1111";
+	}
+	
+}

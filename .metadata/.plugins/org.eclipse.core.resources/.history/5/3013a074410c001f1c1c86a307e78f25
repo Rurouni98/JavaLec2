@@ -1,0 +1,15 @@
+package chap15_exception;
+
+public class _04_Throws {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+	
+	// throws는 해당 메소드가 호출되는 곳에 예외처리를 위임하는 것이다.
+	// 메소드를 호출하는 곳에서 try ~ catch 구문으로 예외처리를 하던가 아니면 다시 한 번  
+}

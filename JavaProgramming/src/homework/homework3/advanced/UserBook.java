@@ -1,5 +1,7 @@
 package homework.homework3.advanced;
 
+import homework.homework3.basic.User;
+
 public class UserBook {
 	
 	User[] userArr = new User[100];

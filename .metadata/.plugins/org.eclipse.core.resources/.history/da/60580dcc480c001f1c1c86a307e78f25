@@ -1,0 +1,18 @@
+package chap16_usefulclass;
+
+public class _01_Object {
+	public static class ObjectExample {
+		private int num1;
+		private int num2;
+		
+		public ObjectExample() {
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

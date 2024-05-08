@@ -1,0 +1,14 @@
+package chap16_usefulclass;
+
+public class _04_String03 {
+
+	public static void main(String[] args) {
+		String str1 = "bit-naver-cloud";
+		String str2 = "kiaCar";
+		String str3 = "aBcDeF";
+		
+		int num1 = 1234;
+		double num2 = 1234.5678;
+	}
+
+}

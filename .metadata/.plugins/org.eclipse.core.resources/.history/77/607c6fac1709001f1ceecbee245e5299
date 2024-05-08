@@ -1,0 +1,12 @@
+package chap12_interface.device;
+
+public interface ElectronicDevice {
+	void powerOn();
+	void powerOff();
+	
+	// default 메소드 선언
+	// default 메소드도 상속받은 클래스에서 오버라이드할 수 있다.
+	default void reset() {
+		System.out.println("장치를 리셋한다.");
+	}
+}

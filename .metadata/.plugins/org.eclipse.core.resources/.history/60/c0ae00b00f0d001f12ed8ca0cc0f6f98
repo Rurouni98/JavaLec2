@@ -1,0 +1,9 @@
+package chap16_usefulclass;
+
+public class _14_Regex02 {
+
+	public static void main(String[] args) {
+		String pattern = "010.*-[0-9]{4}-[0-9]{4}";
+	}
+
+}

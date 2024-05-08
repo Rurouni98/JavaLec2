@@ -1,5 +1,0 @@
-package chap07_class.car;
-
-public class Car {
-	// 1. 자동차에 속성들(인스턴스 변수, 필드, 어트리뷰트...)
-}

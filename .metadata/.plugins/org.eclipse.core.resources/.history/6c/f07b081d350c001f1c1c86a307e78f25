@@ -1,0 +1,14 @@
+package chap14_objectarray;
+
+import chap14_objectarray.car.CarInterface;
+
+public class _02_InterfaceArray {
+
+	public static void main(String[] args) {
+		// 1. 인터페이스 배열 선언
+		CarInterface[] carInterfaceArr = new CarInterface[100];
+		
+		
+	}
+
+}

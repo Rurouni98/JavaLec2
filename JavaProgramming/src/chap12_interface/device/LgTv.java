@@ -1,0 +1,35 @@
+package chap12_interface.device;
+
+public class LgTv implements Tv {
+
+	@Override
+	public void showDisplay() {
+		// TODO Auto-generated method stub
+		System.out.println("LG티비 화면을 보여줍니다.");
+	}
+
+	@Override
+	public void powerOn() {
+		// TODO Auto-generated method stub
+		System.out.println("LG티비 전원을 켭니다.");
+	}
+
+	@Override
+	public void powerOff() {
+		// TODO Auto-generated method stub
+		System.out.println("LG티비 전원을 끕니다.");
+	}
+
+	@Override
+	public void sound() {
+		// TODO Auto-generated method stub
+		System.out.println("LG티비 소리를 틉니다.");
+	}
+
+	@Override
+	public void changeChannel(int channel) {
+		// TODO Auto-generated method stub
+		System.out.println("LG티비 " + channel + "번 채널로 이동합니다.");
+	}
+	
+}

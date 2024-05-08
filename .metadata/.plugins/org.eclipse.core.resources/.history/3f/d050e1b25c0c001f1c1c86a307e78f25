@@ -1,0 +1,63 @@
+package homework.homework6.advance;
+
+public class PrintStudentRank {
+	// 학과별 배열을 만들어주는 메소드
+	public void makMajorArr(Student[] stArr, int index) {
+		// 학과별로 새로운 배열 생성
+		MathStudent[] mathStudentArr;
+		EngStudent[] engStudentArr;
+		ComStudent[] comStudentArr;
+		
+		int mathIndex = 0;
+		int engIndex = 0;
+		int comIndex = 0;
+		
+		for(int i = 0; i < stArr.length; i++) {
+			if(stArr[i].getMajor().equals("수학")) {
+				mathStudentArr[mathIndex++] = (MathStudent)stArr[i];
+				break;
+			} else if(stArr[i].getMajor().equals("영어")) {
+				stArr[i] = 
+				break;
+			} else if(stArr[i].getMajor().equals("컴공")) {
+				stArr[i] = new ComStudent(sno, name);
+				break;
+			} else {
+				System.out.println("존재하지 않는 학과입니다. 다시 입력하세요.");
+				continue;
+			}
+		}
+		
+		// 성적순으로 출력
+//		printRankArray(/*위에서 생성한 세 개의 배열 매개변수로 전달*/);
+	}
+	
+	// 학과별 배열을 성적순대로 정렬하고 출력하는 메소드
+	public void majorRank(Student[] stArr, String major) {
+		int rank = 0;
+		Student[] avgRank = new Student[stArr.length];
+		
+		for(int i = 0; i < stArr.length; i++) {
+			for(int j = stArr.length - 1; j > i; j++) {
+				if(stArr[i].getAvg() < stArr[j].getAvg()) {
+					rank++;
+				}
+			}
+			
+			avgRank[rank] = stArr[i];
+		}
+		
+		for(int k = 0; k < stArr.length; k++) {
+			avgRank[k].printInfo();
+		}
+	}
+	
+	// 학과별 배열을 모두 받아서 majorRank로 전달하는 메소드
+	public void printRankArray(MathStudent[] mathStudentArr, EngStudent[] engStudentArr,
+			ComStudent[] comStudentArr) {
+		majorRank(mathStudentArr, "수학");
+		majorRank(engStudentArr, "영어");
+		majorRank(comStudentArr, "컴공");
+	}
+	
+}

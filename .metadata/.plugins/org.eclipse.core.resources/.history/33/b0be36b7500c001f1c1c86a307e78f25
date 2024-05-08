@@ -1,0 +1,9 @@
+package homework.homework6.basic;
+
+public class MathRound {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

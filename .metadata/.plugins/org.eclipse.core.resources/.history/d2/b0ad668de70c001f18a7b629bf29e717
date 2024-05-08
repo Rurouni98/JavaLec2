@@ -1,0 +1,9 @@
+package chap16_usefulclass;
+
+public class _05_StringEx {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
