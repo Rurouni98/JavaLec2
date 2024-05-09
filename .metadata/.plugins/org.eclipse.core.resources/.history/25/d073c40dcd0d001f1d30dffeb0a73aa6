@@ -1,0 +1,17 @@
+package chap17_usefulclass;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class _06_SimpleDateFormat {
+
+	public static void main(String[] args) {
+		Date today = new Date();
+		
+		// 1. SimpleDateFormat 객체 생성
+		// SimpleDateFormat 객체를 생성할 때 생성자의 매개변수로 지정할 날짜 포맷을 전달한다.
+		SimpleDateFormat simpleDateFormat1 = new SimpleDateFormat("yy년 MM월 dd일");
+		SimpleDateFormat simpleDateFormat2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	}
+
+}

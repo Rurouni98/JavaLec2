@@ -1,0 +1,11 @@
+package homework.homework8.advance;
+
+import java.util.List;
+
+public class ListTwinMax {
+
+	public static void main(String[] args) {
+		List<Integer> twinMax = ArrayList<>();
+	}
+
+}

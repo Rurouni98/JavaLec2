@@ -1,0 +1,17 @@
+package homework.homework8.advance;
+
+import java.util.Scanner;
+
+public class BetweenTwoDate {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("날짜를 입력해주세요. (yyyy-MM-dd)");
+		String userDate1 = sc.nextLine();
+		System.out.println("날짜를 입력해주세요. (yyyy-MM-dd)");
+		String userDate2 = sc.nextLine();
+		
+	}
+
+}

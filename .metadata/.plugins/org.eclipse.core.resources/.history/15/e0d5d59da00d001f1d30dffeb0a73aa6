@@ -1,0 +1,21 @@
+package chap16_usefulclass;
+
+import java.math.BigDecimal;
+
+public class _16_BigDecimal {
+
+	public static void main(String[] args) {
+		// 1. BigDecimal 객체 생성
+		// 1-1. 생성자를 통한 객체 생성
+		BigDecimal bigDecimal = new BigDecimal(1.999999999999999999999999999999999);
+		// 1-2. valueOf 메소드를 통한 객체 생성
+		BigDecimal bigDecimal2 = BigDecimal.valueOf(3.141592);
+		
+		// 2. 반올림 모드
+		// BigDecimal 끼리 나눗셈 연산을 하게 되면 오차가 발생할 수 있기 때문에 반올림모드를 지정한다.
+		// 반올림 모드는 MathContext 객체를 통해서 진행되는데
+		// 
+		
+	}
+
+}

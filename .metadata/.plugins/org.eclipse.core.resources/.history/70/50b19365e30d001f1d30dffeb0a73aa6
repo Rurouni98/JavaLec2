@@ -1,0 +1,9 @@
+package homework.homework8.basic;
+
+public class CalendarEx1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

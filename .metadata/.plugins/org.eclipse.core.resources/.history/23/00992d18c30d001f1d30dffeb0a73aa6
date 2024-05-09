@@ -1,0 +1,16 @@
+package chap17_usefulclass;
+
+import java.util.Calendar;
+
+public class _03_CalendarDateConvert {
+
+	public static void main(String[] args) {
+		Calendar cal = Calendar.getInstance();
+		cal.set(2018, 6, 7); // 7월 7일
+		
+		// 1. Calendar 객체를 Date 객체로 변환
+		// Date 생성자에 매개변수로 cal
+		
+	}
+
+}

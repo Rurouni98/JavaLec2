@@ -1,0 +1,12 @@
+package homework.homework8.basic;
+
+import java.util.Calendar;
+
+public class CalendarEx1 {
+
+	public static void main(String[] args) {
+		Calendar cal = Calendar.getInstance();
+		
+	}
+
+}

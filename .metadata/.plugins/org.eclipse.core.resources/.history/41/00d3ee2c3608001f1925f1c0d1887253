@@ -1,5 +1,0 @@
-package chap09_inherit.board;
-
-public class FreeBoard extends Board {
-
-}

@@ -1,0 +1,10 @@
+package homework.homework8.middle;
+
+public class SimpleDateFormatEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

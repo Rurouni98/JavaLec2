@@ -1,0 +1,13 @@
+package chap17_usefulclass;
+
+public class _05_LeapYear {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static boolean isLeapYear(int year) {
+		
+	}
+
+}

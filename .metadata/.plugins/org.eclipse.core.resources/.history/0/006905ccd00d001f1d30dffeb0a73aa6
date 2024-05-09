@@ -1,0 +1,16 @@
+package chap17_usefulclass;
+
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+
+public class _08_ZonedDateTime {
+
+	public static void main(String[] args) {
+		LocalDateTime localDateTime = LocalDateTime.now();
+		
+		// 1. ZoneId 객체 생성
+		// of 메소드를 통해서 객체를 생성한다.
+		ZoneId zoneId1 = ZoneId.of("Asia/Seoul");
+	}
+
+}

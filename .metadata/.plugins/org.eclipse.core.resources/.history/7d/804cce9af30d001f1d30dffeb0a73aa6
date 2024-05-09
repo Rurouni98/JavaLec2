@@ -1,0 +1,34 @@
+package homework.homework8.advance;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+
+public class BetweenTwoDate {
+
+	public static void main(String[] args) {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		Calendar cal = Calendar.getInstance();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("날짜를 입력해주세요. (yyyy-MM-dd)");
+		String userDate1 = sc.nextLine();
+		System.out.println("날짜를 입력해주세요. (yyyy-MM-dd)");
+		String userDate2 = sc.nextLine();
+		
+		try {
+			Date date1 = sdf.parse(userDate1);
+			cal.setTime(date);
+			
+			System.out.println(weeks[cal.get(Calendar.DAY_OF_WEEK)]);
+
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

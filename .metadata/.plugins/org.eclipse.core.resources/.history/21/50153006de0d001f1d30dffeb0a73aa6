@@ -1,0 +1,21 @@
+package chap18_collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap14_objectarray.car.Car;
+
+public class _02_ClassArrayList {
+
+	public static void main(String[] args) {
+		// [1, 2, 3, 4, 5]
+		List<Integer> intList = new ArrayList<>();
+		
+		
+		
+		List<Car> carList = new ArrayList<>();
+		
+		
+	}
+
+}

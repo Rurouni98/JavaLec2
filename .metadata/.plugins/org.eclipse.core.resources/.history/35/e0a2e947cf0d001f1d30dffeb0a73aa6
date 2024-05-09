@@ -1,0 +1,21 @@
+package chap17_usefulclass;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+public class _07_LocalDateTime {
+
+	public static void main(String[] args) {
+		// 1. LocalDateTime 객체 생성
+		// 1-1. LocalDate, LocalTime 객체를 이용한 객체생성
+		LocalDate localDate = LocalDate.now();
+		LocalTime localTime = LocalTime.now();
+		
+		LocalDateTime localDateTime1 = LocalDateTime.of(localDate, localTime);
+		
+		// 1-2. 원하는 날짜 값을 입력하여 객체 생성
+		LocalDateTime localDateTime2 = LocalDateTime.of(0, 0, 0, 0, 0, 0);
+	}
+
+}

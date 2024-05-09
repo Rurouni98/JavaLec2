@@ -1,0 +1,21 @@
+package homework.homework8.advance;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ListTwinMax {
+
+	public static void main(String[] args) {
+		List<Integer> twinMax = new ArrayList<>();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = 0; i < 5; i++) {
+			System.out.println("정수를 입력해주세요.");
+			twinMax.add(sc.nextInt());
+		}
+		
+	}
+
+}

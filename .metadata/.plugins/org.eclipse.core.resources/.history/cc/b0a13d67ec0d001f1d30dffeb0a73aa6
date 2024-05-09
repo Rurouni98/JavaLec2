@@ -1,0 +1,9 @@
+package homework.homework8.middle;
+
+public class DiffTwoDate {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

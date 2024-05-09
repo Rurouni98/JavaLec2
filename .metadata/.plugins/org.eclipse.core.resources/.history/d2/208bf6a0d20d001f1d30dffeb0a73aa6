@@ -1,0 +1,12 @@
+package chap17_usefulclass;
+
+public class _09_Optional {
+
+	public static void main(String[] args) {
+		// 1. Optional 클래스
+		// NullPointerException을 피하기 위해서 만들어진 클래스
+		// 참조타입의 변수들은 예기치 못하게 null이 되는 경우가 있는데
+		// Optional 클래스에 참조타입의 변수들을 담아서 사용하면
+	}
+
+}

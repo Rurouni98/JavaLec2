@@ -1,0 +1,35 @@
+package chap18_collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap14_objectarray.car.Car;
+
+public class _02_ClassArrayList {
+
+	public static void main(String[] args) {
+		// [1, 2, 3, 4, 5]
+		List<Integer> intList = new ArrayList<>();
+		
+		/* [
+		 * 		{
+		 * 			company: "현대",
+		 * 			model: "제네시스",
+		 * 			price: 5000,
+		 * 			color: "블랙",
+		 * 			메소드들...
+		 * 		},
+		 * 		{
+		 * 			company: "기아",
+		 * 			model: "k9",
+		 * 
+		 * 
+		 * 
+		 * 
+		*/
+		List<Car> carList = new ArrayList<>();
+		
+		
+	}
+
+}

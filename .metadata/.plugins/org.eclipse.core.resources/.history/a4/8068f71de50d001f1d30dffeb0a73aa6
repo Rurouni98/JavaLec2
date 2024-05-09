@@ -1,0 +1,16 @@
+package homework.homework8.basic;
+
+import java.util.Calendar;
+
+public class CalendarEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar cal = Calendar.getInstance();
+		cal.set(2023, 2, 24);
+		
+		
+		
+	}
+
+}

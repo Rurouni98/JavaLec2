@@ -1,9 +1,0 @@
-package chap08_static.car;
-
-public class CarStatic {
-	// 1. 인스턴스 변수 선언
-	public String company;
-	public String model;
-	public String color;
-	public int price;
-}

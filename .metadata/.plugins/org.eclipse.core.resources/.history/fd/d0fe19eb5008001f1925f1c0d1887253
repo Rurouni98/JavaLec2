@@ -1,5 +1,0 @@
-package chap11_abstraction.academy;
-
-public abstract class Academy {
-
-}

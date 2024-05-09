@@ -1,0 +1,13 @@
+package homework.homework8.advance;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class OwnValueList {
+
+	public static void main(String[] args) {
+		List<Integer> intList = new ArrayList<>();
+		
+	}
+
+}
