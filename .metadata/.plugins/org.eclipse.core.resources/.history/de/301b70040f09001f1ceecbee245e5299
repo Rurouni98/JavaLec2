@@ -1,5 +1,0 @@
-package chap12_interface.multiflex;
-
-public interface ConcertHall {
-
-}

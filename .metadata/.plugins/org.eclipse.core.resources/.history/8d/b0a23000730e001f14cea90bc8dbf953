@@ -1,0 +1,42 @@
+package test;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class TestOnly {
+    public static void main(String[] args) {
+    	List<String> arrayList = new ArrayList<>();
+		List<String> linkedList = new LinkedList<>();
+		
+    	long startTime;
+		long endTime;
+    	
+    	startTime = System.nanoTime();
+		
+		for(int i = 0; i < 10000; i++) {
+			arrayList.add(i, String.valueOf(i));
+		}
+		
+		endTime = System.nanoTime();
+		
+		System.out.println("ArrayList 중간에 데이터를 추가하는 데 걸린 시간: " + 
+				(endTime - startTime) + "나노초입니다.");
+		
+		// 중간에 데이터를 넣는데, 처음 인덱스부터 순차적으로 접근해서 오래걸리는게 아니라
+		// 1000번 인덱스로는 바로 가는데 만약 중간에 넣거나 빼면 나머지 애들 인덱스가 전부 바뀌어서
+		// 오래 걸리는 걸로 알고 있는데
+		
+		startTime = System.nanoTime();
+		
+		for(int i = 0; i < 10000; i++) {
+			linkedList.add(i, String.valueOf(i));
+		}
+		
+		endTime = System.nanoTime();
+		
+		System.out.println("LinkedList 중간에 데이터를 추가하는 데 걸린 시간: " + 
+				(endTime - startTime) + "나노초입니다.");
+    	
+    }
+}

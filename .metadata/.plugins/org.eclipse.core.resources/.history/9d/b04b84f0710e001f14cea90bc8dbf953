@@ -1,0 +1,33 @@
+package chap18_collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class _05_HashSet {
+
+	public static void main(String[] args) {
+		// 1. Set 객체 생성
+		Set<String> strSet = new HashSet<>();
+		
+		// 2. Set 데이터 추가
+		strSet.add("Java");
+		strSet.add("JDBC");
+		strSet.add("JavaScript");
+		strSet.add("HTML/CSS");
+		
+		System.out.println(strSet);
+		System.out.println(strSet.size());
+		
+		// 3. Set 중복된 데이터 추가
+		strSet.add("Java");
+		strSet.add("JDBC");
+		
+		System.out.println(strSet);
+		System.out.println(strSet.size());
+		
+		// 4. Set은 데이터의 순서가 없기 때문에 인덱스톨 데이터에 접근할 수 있는 방법이 없다.
+		// Collection의 Iterator를 이용해서 Set에 담겨있는 데이터에 하나씩 접근해서 사용한다.
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package chap18_collection;
+
+public class _08_MapObjectValue {
+
+	public static void main(String[] args) {
+		// Map의 value를 Object 타입으로 지정하면 value에 모든 타입을 담을 수 있게 된다.
+		// VO(Value Object), DTO(Data Transfer Object), Entity 클래스를 만드는 데
+		// DB의 테이블과 매핑되도록 만든다.
+		// 테이블들을 조인해서 데이터를 가지고 오면 VO나 DTO, Entity로 담을 수 없는 데이터들이
+		// 생기기 때문에 Map을 이용한다.
+		// A 테이블: 
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

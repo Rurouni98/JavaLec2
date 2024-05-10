@@ -1,0 +1,9 @@
+package chap18_collection;
+
+public class _06_Iterator {
+
+	public static void main(String[] args) {
+		List<Car> carList = new ArrayList<>();
+	}
+
+}

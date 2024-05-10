@@ -1,0 +1,9 @@
+package chap19_generic.box;
+
+public class _01_GenericClass {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

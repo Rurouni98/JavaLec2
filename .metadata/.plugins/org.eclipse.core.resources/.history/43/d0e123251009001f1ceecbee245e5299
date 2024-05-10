@@ -1,8 +1,0 @@
-package chap12_interface.multiflex;
-
-public interface ConcertHall {
-	void printSchedule(int month);
-	void getTicketPrice(int people);
-	void getRemainSeat();
-
-}

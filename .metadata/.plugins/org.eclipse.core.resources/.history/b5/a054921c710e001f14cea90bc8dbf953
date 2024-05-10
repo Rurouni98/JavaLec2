@@ -1,0 +1,10 @@
+package chap18_collection;
+
+public class _05_HashSet {
+
+	public static void main(String[] args) {
+		// 1. Set 객체 생성
+		Set<String> strSet = new HashSet<>();
+	}
+
+}

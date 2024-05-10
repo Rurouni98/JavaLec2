@@ -1,0 +1,14 @@
+package chap18_collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap14_objectarray.car.Car;
+
+public class _06_Iterator {
+
+	public static void main(String[] args) {
+		List<Car> carList = new ArrayList<>();
+	}
+
+}

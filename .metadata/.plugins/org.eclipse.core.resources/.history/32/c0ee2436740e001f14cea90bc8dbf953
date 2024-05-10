@@ -1,0 +1,16 @@
+package chap18_collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap14_objectarray.car.Car;
+
+public class _06_Iterator {
+
+	public static void main(String[] args) {
+		List<Car> carList = new ArrayList<>();
+		
+		carList.add(new Car("현대", "제네시스", 5000, "검정"));
+	}
+
+}

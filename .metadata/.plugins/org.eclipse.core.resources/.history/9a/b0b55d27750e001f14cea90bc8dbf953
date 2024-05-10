@@ -1,0 +1,42 @@
+package chap18_collection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import chap14_objectarray.car.Car;
+
+public class _06_Iterator {
+
+	public static void main(String[] args) {
+		List<Car> carList = new ArrayList<>();
+		
+		carList.add(new Car("현대", "제네시스", 5000, "검정"));
+		carList.add(new Car("현대", "소나타", 4000, "흰색"));
+		carList.add(new Car("기아", "k9", 5000, "검정"));
+		carList.add(new Car("기아", "ev6", 6000, "초록"));
+		carList.add(new Car("현대", "그랜저", 4500, "회색"));
+		
+		System.out.println("carList의 데이터 개수: " + carList.size());
+		
+		// 1. Iterator 객체 얻기
+		Iterator<Car> carIterator = carList.iterator();
+		
+		while(carIterator.hasNext()) {
+			Car car = carIterator.next();
+			
+			car.carInfo();
+			
+			// iterator를 통한 데이터 삭제
+			// iterator.next 메소드로 데이터를 하나 꺼내온 후에 사용가능하다.
+			if(car.company.equals("현대")) {
+				// iterator.next 메소드를 통해 꺼내온 데이터 List에서 삭제
+				carIterator.remove();
+			}
+		}
+		
+		System.out.println(carList.size());
+		
+	}
+
+}

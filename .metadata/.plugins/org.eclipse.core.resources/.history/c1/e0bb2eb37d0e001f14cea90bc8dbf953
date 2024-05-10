@@ -1,0 +1,14 @@
+package chap18_collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class _07_HashMap {
+
+	public static void main(String[] args) {
+		// 1. Map 객체 생성
+		Map<String, String> carMap = new HashMap<>();
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package chap18_collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class _07_HashMap {
+
+	public static void main(String[] args) {
+		// 1. Map 객체 생성
+		// Map은 Key, Value 쌍으로 데이터(엔트리)가 저장되기 때문에
+		// 제네릭 타입도 Key, Value 두 개를 지정해야한다.
+		
+		Map<String, String> carMap = new HashMap<>();
+		
+		// 2. Map에 데이터 추가
+		carMap.put("company", "현대");
+		carMap.put("model","제네시스");
+		carMap.put("price", "5000");
+		carMap.put("color", "검정");
+		
+	}
+
+}

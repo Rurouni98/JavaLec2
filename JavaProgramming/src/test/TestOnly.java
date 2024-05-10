@@ -1,31 +1,44 @@
 package test;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class TestOnly {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        StringBuffer sb = new StringBuffer("유용한 클래스는 많다. 다양한 라이브러리를 활용한다.");
-        System.out.println(sb.charAt(sc.nextInt()));
-
-        StringBuffer sb1 = new StringBuffer(30);
-        sb1.append("hello");
-        Deque<String> deque = new ArrayDeque<>();
-        deque.addFirst("t");
-        deque.addFirst("i");
-        deque.addFirst("b");
-        
-        String append;
-        while (sb1.length()< sb1.capacity()){
-            append=deque.remove();
-            deque.add(append);
-            sb1.append(append);
-        }
-        System.out.println(sb1);
-
-        System.out.println(sb1.capacity());
-        System.out.println(sb1.length());
+    	List<String> arrayList = new ArrayList<>();
+		List<String> linkedList = new LinkedList<>();
+		
+		long startTime;
+		long endTime;
+		
+		startTime = System.nanoTime();
+		
+		for(int i = 0; i < 1000000; i++) {
+			arrayList.add(String.valueOf(i));
+		}
+		
+		endTime = System.nanoTime();
+		
+		System.out.println("ArrayList 순차적으로 데이터를 넣는데 걸린 시간: " + 
+				(endTime - startTime) + "나노초입니다.");
+		
+		startTime = System.nanoTime();
+		
+		for(int i = 0; i < 1000000; i++) {
+			linkedList.add(String.valueOf(i));
+		}
+		
+		endTime = System.nanoTime();
+		
+		System.out.println("LinkedList 순차적으로 데이터를 넣는데 걸린 시간: " + 
+				(endTime - startTime) + "나노초입니다.");
+		
+		startTime = System.nanoTime();
+		
+		
+		
+		endTime = System.nanoTime();
+    	
     }
 }

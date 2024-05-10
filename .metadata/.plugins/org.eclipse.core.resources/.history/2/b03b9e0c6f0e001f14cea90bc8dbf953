@@ -1,0 +1,31 @@
+package chap18_collection;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class _04_LinkedList {
+
+	public static void main(String[] args) {
+		// 1. ArrayList, LinkedList의 속도 비교
+		// 1-1. 순차적으로 데이터를 넣는 속도 비교
+		List<String> arrayList = new ArrayList<>();
+		List<String> linkedList = new LinkedList<>();
+		
+		long startTime;
+		long endTime;
+		
+		startTime = System.nanoTime();
+		
+		for(int i = 0; i < 1000000; i++) {
+			arrayList.add(String.valueOf(i));
+		}
+		
+		endTime = System.nanoTime();
+		
+		System.out.println("ArrayList 순차적으로 데이터를 넣는데 걸린 시간: " + 
+				(endTime - startTime) + "나노초입니다.");
+		
+	}
+
+}
