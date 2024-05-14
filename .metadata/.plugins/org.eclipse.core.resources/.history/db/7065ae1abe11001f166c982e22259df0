@@ -1,0 +1,28 @@
+package chap21_multithread.threads;
+
+public class DemonThread extends Thread {
+	public void save() {
+		System.out.println("저장되었습니다.");
+	}
+	
+	@Override
+	public void run() {
+		while(true) {
+			Thread.sleep(5000);
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

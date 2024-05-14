@@ -1,0 +1,14 @@
+package chap21_multithread;
+
+import chap21_multithread.threads.DaemonThread;
+
+public class _12_DaemonThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DaemonThread dt = new DaemonThread();
+		
+		// 1. setDaemon(boolean) 메소드를 통해
+	}
+
+}

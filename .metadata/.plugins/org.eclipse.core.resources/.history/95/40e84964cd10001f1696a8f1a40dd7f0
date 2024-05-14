@@ -1,0 +1,15 @@
+package chap19_generic.board;
+
+public class NoticeBoard {
+	private int noticeBoardNo;
+	private String noticeBoardTitle;
+	
+	public NoticeBoard() {
+		
+	}
+	
+	public NoticeBoard(int noticeBoardNo, String noticeBoardTitle) {
+		this.noticeBoardNo = noticeBoardNo;
+		this.noticeBoardTitle = noticeBoardTitle;
+	}
+}

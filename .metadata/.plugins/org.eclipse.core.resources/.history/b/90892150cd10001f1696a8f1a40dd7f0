@@ -1,0 +1,10 @@
+package chap19_generic.board;
+
+public class NoticeBoard {
+	private int noticeBoardNo;
+	private String noticeBoardTitle;
+	
+	public NoticeBoard() {
+		
+	}
+}

@@ -1,0 +1,18 @@
+package chap21_multithread.threads;
+
+public class SyncThread02 extends Thread {
+	private PrintNumWithSync pnws;
+	
+	public void setPnws(PrintNumWithSync pnws) {
+		this.pnws = pnws;
+	}
+	
+	public PrintNumWithSync getPnws() {
+		return this.pnws;
+	}
+	
+	@Override
+	public void run() {
+		pnws.printNum2(20);
+	}
+}

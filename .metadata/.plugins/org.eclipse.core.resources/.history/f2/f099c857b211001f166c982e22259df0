@@ -1,0 +1,32 @@
+package chap21_multithread.threads;
+
+public class PrintNumWithSync {
+	private int num;
+	
+	public void setNum(int num) {
+		this.num = num;
+	}
+	
+	// 1. 동기화메소드: 공유되고 있는 객체의 멤버변수를 잠금처리하여 다른 스레드에서 사용하지 못하게 한다.
+	public void printNum(int num) {
+		this.setNum(num);
+		
+		for(int i = 1; i <= this.num; i++) {
+			System.out.println(i);
+			
+			try {
+				Thread.sleep(100);
+			} catch(InterruptedException ie) {
+				ie.getMessage();
+			}
+		}
+	}
+	
+	public void printNum2(int num) {
+		this.setNum(num);
+		
+		for(int i = 1; i <= this.num * 2; i++) {
+			System.out.println(i);
+		}
+	}
+}

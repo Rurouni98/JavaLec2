@@ -1,0 +1,18 @@
+package chap21_multithread;
+
+import chap21_multithread.threads.DaemonThread;
+
+public class _12_DaemonThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DaemonThread dt = new DaemonThread();
+		
+		// 1. setDaemon(boolean) 메소드를 통해
+		// 해당 스레드를 보조 스레드로 지정
+		dt.setDaemon(true);
+		
+		dt.start();
+	}
+
+}

@@ -1,0 +1,10 @@
+package chap20_enum;
+
+public class _06_MethodEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

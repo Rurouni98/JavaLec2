@@ -1,0 +1,21 @@
+package chap21_multithread.threads;
+
+import java.util.Scanner;
+
+public class InterruptedThread extends Thread {
+	private Scanner sc = new Scanner(System.in);
+	
+	@Override
+	public void run() {
+		try {
+			while(true) {
+				System.out.println("문자열을 입력하세요.");
+				String str = sc.nextLine();
+				System.out.println("입력한 문자열: " + str);
+				System.out.println("스레드 동작");
+			}
+		} catch(InterruptedException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+}

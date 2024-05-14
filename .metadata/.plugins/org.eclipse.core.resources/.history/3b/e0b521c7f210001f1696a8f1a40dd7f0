@@ -1,0 +1,11 @@
+package chap20_enum;
+
+public class _02_DefaultEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Enum은 객체처럼 사용
+		
+	}
+
+}

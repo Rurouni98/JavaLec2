@@ -15,6 +15,14 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="chap19_generic.board.FreeBoard"/>
+    <fullyQualifiedTypeName name="chap19_generic.ramyun.LimitedRamyun01"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="chap20_enum.enums.DefaultMonth"/>
+    <fullyQualifiedTypeName name="chap20_enum.enums.MultiValueMonth"/>
+    <fullyQualifiedTypeName name="chap20_enum.enums.MethodMonth"/>
+    <fullyQualifiedTypeName name="chap20_enum.enums.Season"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="homework.homework10.middle._04_OverMap"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>

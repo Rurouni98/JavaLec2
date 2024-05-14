@@ -1,0 +1,18 @@
+package chap21_multithread.threads;
+
+import java.util.Scanner;
+
+public class InterruptedThread extends Thread {
+	private Scanner sc = new Scanner(System.in);
+	
+	@Override
+	public void run() {
+		try {
+			while(true) {
+				
+			}
+		} catch(InterruptedException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+}

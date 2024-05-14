@@ -1,0 +1,22 @@
+package chap21_multithread;
+
+import chap21_multithread.threads.SafeExitThread;
+
+public class _10_SafeExitBoolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SafeExitThread st = new SafeExitThread();
+		
+		st.start();
+		
+		try {
+			Thread.sleep(1000);
+		} catch(InterruptedException ie) {
+			System.out.println(ie.getMessage());
+		}
+		
+		st.setStop(true);
+	}
+
+}

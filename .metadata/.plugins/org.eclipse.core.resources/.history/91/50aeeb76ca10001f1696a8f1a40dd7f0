@@ -1,0 +1,9 @@
+package chap19_generic.ramyun;
+
+public class Gimchi {
+	private String color;
+	
+	public Gimchi() {
+		this.color = "red";
+	}
+}

@@ -1,0 +1,15 @@
+package chap21_multithread;
+
+public class _06_ReasonOfThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	// 1. 1억건의 데이터를 조회하는 메소드
+	public static List<Map<String, String>> getDataList() {
+		return new ArrayList<Map<String, String>>();
+	}
+
+}

@@ -1,0 +1,15 @@
+package chap19_generic;
+
+import chap19_generic.ramyun.Gimchi;
+import chap19_generic.ramyun.LimitedRamyun01;
+import chap19_generic.ramyun.PaGimchi;
+
+public class _05_LimitedGeneric {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LimitedRamyun01<Gimchi> gimchiRamyun = new LimitedRamyun01<>();
+		LimitedRamyun01<PaGimchi> paGimchiRamyun = new LimitedRamyun01<>();
+	}
+
+}

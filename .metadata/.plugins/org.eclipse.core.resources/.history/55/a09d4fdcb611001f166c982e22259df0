@@ -1,0 +1,12 @@
+package chap21_multithread;
+
+import chap21_multithread.threads.PrintNumWaitNotify;
+
+public class _09_WaitNotify {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PrintNumWaitNotify pnwn = new PrintNumWaitNotify();
+	}
+
+}

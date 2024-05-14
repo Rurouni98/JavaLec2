@@ -1,0 +1,5 @@
+package chap20_enum.enums;
+
+public enum ValueMonth {
+
+}

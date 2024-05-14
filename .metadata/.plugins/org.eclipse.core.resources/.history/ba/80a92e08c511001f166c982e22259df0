@@ -1,0 +1,11 @@
+package chap21_multithread;
+
+public class _14_ThreadPool02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. shutdown() 메소드로 스레드 풀 바로 종료시키기
+		// 
+	}
+
+}

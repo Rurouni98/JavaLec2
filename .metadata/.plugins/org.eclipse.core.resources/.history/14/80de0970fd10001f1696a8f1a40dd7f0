@@ -1,0 +1,10 @@
+package chap20_enum.enums;
+
+public class _05_RGBEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package chap21_multithread;
+
+import chap21_multithread.threads.NonSyncThread01;
+import chap21_multithread.threads.NonSyncThread02;
+import chap21_multithread.threads.PrintNumWithoutSync;
+
+public class _07_NonSyncSharedObj {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PrintNumWithoutSync pnws = new PrintNumWithoutSync();
+		
+		NonSyncThread01 nst01 = new NonSyncThread01();
+		NonSyncThread02 nst02 = new NonSyncThread02();
+		
+		// 1. 동일한 객체를 두 개의 스레드에서 공유
+		nst01.setPnws(pnws);
+		nst02.setPnws(pnws);
+	}
+
+}

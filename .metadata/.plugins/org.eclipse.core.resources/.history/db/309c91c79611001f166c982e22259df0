@@ -1,0 +1,11 @@
+package chap21_multithread;
+
+public class _01_Thread {
+
+	// 1. 메인스레드: 메인메소드 영역
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

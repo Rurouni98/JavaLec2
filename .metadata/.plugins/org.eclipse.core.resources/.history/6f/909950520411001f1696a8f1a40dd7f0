@@ -1,0 +1,7 @@
+package homework.homework10.basic;
+
+public class AddGeneric {
+	public static <T> String add(T t1, T t2) {
+		String addStr = "";
+	}
+}

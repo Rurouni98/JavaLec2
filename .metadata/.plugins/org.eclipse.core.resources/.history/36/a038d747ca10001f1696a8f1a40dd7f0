@@ -1,0 +1,9 @@
+package chap19_generic.ramyun;
+
+public class Danmuji {
+	private String color;
+	
+	public Danmuji() {
+		
+	}
+}

@@ -1,0 +1,15 @@
+package chap21_multithread;
+
+public class _03_JoinMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread subThread1 = new Thread() {
+			@Override
+			public void run() {
+				
+			}
+		};
+	}
+
+}

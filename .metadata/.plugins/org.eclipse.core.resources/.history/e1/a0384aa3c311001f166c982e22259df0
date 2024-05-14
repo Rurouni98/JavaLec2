@@ -1,0 +1,23 @@
+package chap21_multithread;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import chap21_multithread.threads.SumThread01;
+import chap21_multithread.threads.SumThread02;
+
+public class _13_ThreadPool01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. ThreadPool 생성
+		// 스레드 최대 개수가 5개인 스레드 풀 생성
+		ExecutorService threadPool = Executors.newFixedThreadPool(5);
+		
+		// 2. SumThread01, SumThread02를 스레드 풀 대기큐에 등록
+		threadPool.execute(new SumThread01());
+		threadPool.execute(new SumThread02());
+		threadPool.execute(new SumThread01());
+	}
+
+}

@@ -1,0 +1,23 @@
+package chap20_enum;
+
+public class _01_WithoutEnum {
+	// enum을 사용하지 않았을 때
+	static final int JAN = 1;
+	static final int FEB = 2;
+	static final int MAR = 3;
+	static final int MAR = 4;
+	static final int MAR = 5;
+	static final int MAR = 6;
+	static final int MAR = 7;
+	static final int MAR = 8;
+	static final int MAR = 9;
+	static final int MAR = 10;
+	static final int MAR = 11;
+	static final int MAR = 12;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

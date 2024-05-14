@@ -1,0 +1,8 @@
+package chap20_enum.enums;
+
+public enum Season {
+	SPRING("봄", 3, 4, 5),
+	SUMMER("여름", 6, 7, 8),
+	FALL("가을", 9, 10, 11),
+	WINTER("겨울", 12, 1, 2);
+}

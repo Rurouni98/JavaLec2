@@ -1,0 +1,7 @@
+package chap21_multithread;
+
+public class _11_SafeExitInterrupt {
+	public static void main(String[] args) {
+		
+	}
+}

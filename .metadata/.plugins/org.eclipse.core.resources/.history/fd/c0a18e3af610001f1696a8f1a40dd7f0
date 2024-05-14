@@ -1,0 +1,10 @@
+package chap20_enum;
+
+public class _03_ValueEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

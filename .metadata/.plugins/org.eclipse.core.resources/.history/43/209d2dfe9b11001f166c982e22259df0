@@ -1,0 +1,7 @@
+package chap21_multithread.threads;
+
+public class PrintNum {
+	public void printNum(int num) {
+		
+	}
+}

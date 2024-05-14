@@ -1,0 +1,23 @@
+package chap19_generic.ramyun;
+
+public class Danmuji {
+	private String color;
+	
+	public Danmuji() {
+		this.color = "yellow";
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	@Override
+	public String toString() {
+		return "Danmuji [color=" + color + "]";
+	}
+	
+}

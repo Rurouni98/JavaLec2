@@ -1,0 +1,7 @@
+package chap21_multithread.threads;
+
+public class DemonThread extends Thread {
+	public void save() {
+		
+	}
+}

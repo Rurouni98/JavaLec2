@@ -1,0 +1,28 @@
+package homework.homework10.middle;
+
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class getMaxMul {
+	public <K,V> Entry<K, V> getMaxMul(Map<K, V> map) {
+		Set<Entry<K, V>> mapSet = map.entrySet();
+		Iterator<Entry<K, V>> mapItr = mapSet.iterator();
+		
+		int maxMul = 0;
+		int index = 0;
+		
+		while(mapItr.hasNext()) {
+			Entry<K, V> mapEntry = mapItr.next();
+			int entryMul = (int)mapEntry.getKey() * (int)mapEntry.getValue();
+			
+			if(index == 0) {
+				index = entryMul;
+			} else if(entryMul > index) {
+				maxMul = entryMul;
+			}
+			
+		}
+	}
+}

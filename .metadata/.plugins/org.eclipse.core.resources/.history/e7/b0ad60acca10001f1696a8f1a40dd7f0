@@ -1,0 +1,10 @@
+package chap19_generic.ramyun;
+
+public class _02_GenericClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

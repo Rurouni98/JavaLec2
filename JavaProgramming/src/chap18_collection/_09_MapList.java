@@ -11,7 +11,7 @@ public class _09_MapList {
 
 	public static void main(String[] args) {
 		List<Car> carList = new ArrayList<>();
-		
+	
 		carList.add(new Car("현대", "제네시스", 5000, "검정"));
 		carList.add(new Car("현대", "소나타", 4000, "흰색"));
 		carList.add(new Car("기아", "k9", 5000, "검정"));

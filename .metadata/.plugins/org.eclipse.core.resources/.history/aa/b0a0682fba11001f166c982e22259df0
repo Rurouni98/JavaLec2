@@ -1,0 +1,17 @@
+package chap21_multithread.threads;
+
+import java.util.Scanner;
+
+public class SafeExitThread extends Thread {
+	private Scanner sc = new Scanner(System.in);
+	private boolean isStop = false;
+	
+	public boolean isStop() {
+		return this.isStop;
+	}
+	
+	public void setStop(boolean isStop) {
+		this.isStop = isStop;
+	}
+	
+}

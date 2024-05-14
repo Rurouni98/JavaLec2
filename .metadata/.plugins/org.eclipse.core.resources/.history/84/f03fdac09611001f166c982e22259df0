@@ -1,0 +1,10 @@
+package chap21_multithread;
+
+public class _01_Thread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

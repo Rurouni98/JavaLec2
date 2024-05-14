@@ -1,0 +1,6 @@
+package chap21_multithread.threads;
+
+public class PrintThread extends Thread {
+	private String threadName;
+	private boolean isShutDown = false;
+}

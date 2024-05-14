@@ -1,0 +1,6 @@
+package chap19_generic.board;
+
+public class FreeBoard {
+	private int freeBoardNo;
+	private String freeBoardTitle;
+}

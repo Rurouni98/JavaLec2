@@ -1,0 +1,40 @@
+package chap21_multithread.threads;
+
+public class PrintThread extends Thread {
+	private String threadName;
+	private boolean isShutDown = false;
+	
+	public String getThreadName() {
+		return threadName;
+	}
+	public void setThreadName(String threadName) {
+		this.threadName = threadName;
+	}
+	public boolean isShutDown() {
+		return isShutDown;
+	}
+	public void setShutDown(boolean isShutDown) {
+		this.isShutDown = isShutDown;
+	}
+	
+	@Override
+	public void run() {
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

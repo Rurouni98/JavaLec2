@@ -1,0 +1,9 @@
+package chap21_multithread.threads;
+
+import java.util.Scanner;
+
+public class InterruptedThread {
+	private Scanner sc = new Scanner(System.in);
+	
+	
+}

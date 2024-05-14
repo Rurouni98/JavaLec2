@@ -1,0 +1,9 @@
+package chap21_multithread.threads;
+
+public class NonSyncThread01 extends Thread {
+	private PrintNumWithoutSync pnws;
+	
+	
+	
+	
+}

@@ -1,0 +1,9 @@
+package chap21_multithread.threads;
+
+public class PrintNumWithoutSync {
+	private int num;
+	
+	public void setNum(int num) {
+		this.num = num;
+	}
+}

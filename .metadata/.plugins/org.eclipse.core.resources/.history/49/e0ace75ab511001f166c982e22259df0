@@ -1,0 +1,13 @@
+package chap21_multithread.threads;
+
+public class PrintNumWatiNotify {
+	private int num;
+	
+	public void setNum(int num) {
+		this.num = num;
+	}
+	
+	public synchronized void printNum1(int num) { 
+		
+	}
+}

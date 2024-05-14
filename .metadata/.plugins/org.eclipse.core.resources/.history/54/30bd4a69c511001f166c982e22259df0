@@ -1,0 +1,35 @@
+package chap21_multithread;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import chap21_multithread.threads.PrintThread;
+
+public class _14_ThreadPool02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. shutdown() 메소드로 스레드 풀 바로 종료시키기
+		// Thread에 boolean 값을 통해 shutdown() 메소드가 호출되어도
+		// 바로 스레드 풀을 종료시킬 수 있다.
+		ExecutorService threadPool = Executors.newFixedThreadPool(5);
+		
+		PrintThread pt = new PrintThread();
+		
+		pt.setThreadName("thread-1");
+		
+		threadPool.execute(pt);
+		
+		// 2. 스레드 풀의 스레드들은 데몬 스레드가 아니기 때문에
+		// 주 스레드가 종료되어도 남아있는 작업들은 계속해서 진행된다.
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

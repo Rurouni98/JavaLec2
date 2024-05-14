@@ -1,0 +1,25 @@
+package chap21_multithread;
+
+public class _03_JoinMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread subThread1 = new Thread() {
+			@Override
+			public void run() {
+				for(int i = 6; i <= 10; i++) {
+					System.out.println(i);
+				}
+			}
+		};
+		
+		subThread1.start();
+		
+		try {
+			subThread1.join();
+		} catch(InterruptedException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package chap21_multithread;
+
+public class _13_ThreadPool01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. ThreadPool 생성
+		// 스레드 최대 개수가 5개인 스레드 풀 생성
+	}
+
+}

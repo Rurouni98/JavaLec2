@@ -1,0 +1,5 @@
+package homework.homework10.middle;
+
+public enum _03_CoffeeMenu {
+	
+}
