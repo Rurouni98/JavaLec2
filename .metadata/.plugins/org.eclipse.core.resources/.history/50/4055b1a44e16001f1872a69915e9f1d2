@@ -1,0 +1,27 @@
+package chap24_dataio;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+
+public class _06_Reader {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			// 1. Reader 객체 생성
+			Reader reader = new FileReader(
+				"D:/lecture/Java/Javaprogramming/src/chap24-"	
+			);
+			
+			// 2. 모든 문자를 읽기 위한 while문 선언
+			while(true) {
+				int data = reader.read();
+			}
+			
+		} catch (IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+package chap24_dataio;
+
+public class _05_Writer {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

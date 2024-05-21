@@ -1,0 +1,10 @@
+package chap24_dataio;
+
+public class _05_Writer {
+
+	public static void main(String[] args) {
+		// 1. Writer 객체 생성
+		// Writer는 추상클래스로 객체를 생성할 수 없어서 
+	}
+
+}

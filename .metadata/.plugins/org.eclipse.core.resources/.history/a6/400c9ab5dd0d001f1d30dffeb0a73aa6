@@ -1,9 +1,0 @@
-package chap18_collection;
-
-public class _02_ClassArrayList {
-
-	public static void main(String[] args) {
-		List<Integer> intList = new ArrayList<>();
-	}
-
-}

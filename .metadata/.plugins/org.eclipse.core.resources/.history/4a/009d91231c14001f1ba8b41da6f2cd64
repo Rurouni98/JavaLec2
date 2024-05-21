@@ -1,0 +1,44 @@
+package chap23_stream;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap23_stream.car.HyundaiCar;
+
+public class _16_CountingMethodEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// List<HyundaiCar> 생성하고
+		// 아반떼, 3000
+		// 아반떼, 3500
+		// 아반떼, 2500
+		// 소나타, 4000
+		// 그랜저, 5000
+		// 제네시스, 6000
+		
+		// Stream 처리를 통해서 가격이 최대값인 객체 하나와
+		// 가격이 최소값인 객체 하나를 찾아서 출력하세요. carInfo() 메소드 이용
+		
+		List<HyundaiCar> carList = new ArrayList<>();
+		
+		carList.add(new HyundaiCar("아반떼", 3000));
+		carList.add(new HyundaiCar("아반떼", 3500));
+		carList.add(new HyundaiCar("아반떼", 2500));
+		carList.add(new HyundaiCar("소나타", 4000));
+		carList.add(new HyundaiCar("그랜저", 5000));
+		carList.add(new HyundaiCar("제네시스", 6000));
+		
+		int max = carList.stream()
+						 .mapToInt(car -> car.getPrice())
+						 .max()
+						 .getAsInt();
+		
+		int min = carList.stream()
+		   	   			 .mapToInt(car -> car.getPrice())
+		   	   			 .min()
+		   	   			 .getAsInt();
+		
+	}
+
+}

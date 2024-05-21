@@ -1,0 +1,17 @@
+package chap23_stream;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class _12_Sorted {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> intList = new ArrayList<>();
+		
+		for(int i = 0; i < 10; i++) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+package chap24_dataio;
+
+public class _01_ByteOutputStream01 {
+	
+	public static void main(String[] args) {
+		// 1. OutputStream 객체 생성
+		
+	}
+}

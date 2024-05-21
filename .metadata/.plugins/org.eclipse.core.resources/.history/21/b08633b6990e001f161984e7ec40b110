@@ -1,8 +1,0 @@
-package chap19_generic.box;
-
-// 1. 제네릭 클래스 선언
-// 클래스 이름 뒤에 <타입매개변수인 T>를 붙여준다.
-
-public class Box {
-
-}

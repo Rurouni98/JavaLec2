@@ -1,0 +1,8 @@
+package chap24_dataio;
+
+public class _04_FileCopyByByteStream {
+	
+	public static void main(String[] args) {
+		
+	}
+}

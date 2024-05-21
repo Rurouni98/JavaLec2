@@ -1,5 +1,0 @@
-package homework.homework10.basic;
-
-public class GenericCla<T> {
-	
-}

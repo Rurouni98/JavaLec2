@@ -1,0 +1,22 @@
+package chap23_stream;
+
+import java.net.URISyntaxException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class _07_FilesToStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			// 1. hyundaicar.txt 파일의 경로 객체 생성(Path 객체)
+			Path path = Paths.get(
+					_07_FilesToStream.class.getResource("hyundaicar.txt").toURI());
+			
+			// 2. 위에서 얻은 Path 객체를 통해서 
+		} catch(URISyntaxException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+}

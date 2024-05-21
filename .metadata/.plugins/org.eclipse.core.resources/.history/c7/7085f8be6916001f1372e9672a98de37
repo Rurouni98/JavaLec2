@@ -1,0 +1,8 @@
+package chap24_dataio.car;
+
+// 직렬화(Serialization): 객체의 멤버변수들을 바이트로 일렬로 정렬하는 기능
+// 역직렬화(DeSerialization): 바이트로 일렬로 정렬된 멤버변수들을 객체형태로 만들어주는 기능
+// 
+public class Car {
+
+}

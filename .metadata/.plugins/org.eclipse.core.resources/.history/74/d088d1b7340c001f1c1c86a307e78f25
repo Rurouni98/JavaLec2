@@ -1,7 +1,0 @@
-package chap14_objectarray.car;
-
-public class KiaCar extends Car implements CarInterface {
-	public KiaCar() {
-		
-	}
-}

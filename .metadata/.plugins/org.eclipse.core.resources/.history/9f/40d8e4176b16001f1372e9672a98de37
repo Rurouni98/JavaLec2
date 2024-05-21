@@ -1,0 +1,42 @@
+package chap24_dataio;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+import chap24_dataio.car.Car;
+
+public class _11_ObjectInputOutputStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Car> carList = new ArrayList<>();
+		
+		carList.add(new Car("현대", "아반떼", 3000, 190.7));
+		carList.add(new Car("현대", "아반떼", 3000, 190.7));
+		carList.add(new Car("현대", "아반떼", 3000, 190.7));
+		
+		try {
+			// 1. ObjectOutputStream 객체 생성
+			ObjectOutputStream objOutputStream = new ObjectOutputStream(
+				new FileOutputStream(
+					"D:/lecture/Java/JavaProgramming/src/chap24_dataio/Car.txt"
+				)	
+			);
+			
+			// 2. ObjectOutputStream을 이용해서 객체 출력
+			for(Car car : carList) {
+				objOutputStream.
+			}
+			
+		} catch(FileNotFoundException fe) {
+			System.out.println(fe.getMessage());
+		} catch(IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

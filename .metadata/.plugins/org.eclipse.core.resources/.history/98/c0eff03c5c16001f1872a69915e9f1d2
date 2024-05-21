@@ -1,0 +1,30 @@
+package chap24_dataio;
+
+import java.io.DataOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class _09_DataInputOutputStream {
+
+	public static void main(String[] args) {
+		try {
+			// 1. DataOutputStream 객체 생성
+			// DataOutputStream은 바이트 스트림 출력 스트림인 OutputStream에만 존재하는 보조 스트림
+			// 기본자료형 데이터들을 출력할 수 있는 보조 스트림이다.
+			DataOutputStream dataOutputStream = new DataOutputStream(
+				new FileOutputStream(
+					"D:/lecture/Java/JavaProgramming/src/chap24_dataio/DataOutputStream.txt"	
+				)	
+			);
+			
+			// 2. writeUTF()
+			
+		} catch(FileNotFoundException fe) {
+			System.out.println(fe.getMessage());
+		} catch(IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

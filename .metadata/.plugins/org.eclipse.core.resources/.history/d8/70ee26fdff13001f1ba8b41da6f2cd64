@@ -1,0 +1,16 @@
+package chap23_stream;
+
+import java.net.URISyntaxException;
+
+public class _07_FilesToStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			
+		} catch(URISyntaxException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+}

@@ -1,6 +1,0 @@
-package chap20_enum.enums;
-
-// 1. enum의 정의는 클래스의 정의와 동일하다.
-public enum DefaultMonth {
-
-}

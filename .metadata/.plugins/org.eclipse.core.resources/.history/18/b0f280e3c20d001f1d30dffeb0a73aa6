@@ -1,9 +1,0 @@
-package chap17_usefulclass;
-
-public class _03_CalendarDateConvert {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

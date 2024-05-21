@@ -1,0 +1,9 @@
+package chap24_dataio;
+
+public class _03_ByteInputStream {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

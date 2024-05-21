@@ -1,5 +1,0 @@
-package chap13_nestedclass.nestedclass;
-
-public interface AnonymousNestedClass {
-
-}

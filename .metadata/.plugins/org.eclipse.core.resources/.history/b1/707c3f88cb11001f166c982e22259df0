@@ -1,0 +1,15 @@
+package homework.homework11.basic;
+
+public class _03_NumberPrinter {
+	
+	int num = 0;
+	
+	public void numPrint1(int num) {
+		this.num = num;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

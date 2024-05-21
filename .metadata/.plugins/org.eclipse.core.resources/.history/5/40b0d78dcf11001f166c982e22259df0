@@ -1,0 +1,27 @@
+package homework.homework11.basic;
+
+public class _03_SyncThread01 extends Thread {
+	private _0304_NumberPrinter np;
+
+	public _0304_NumberPrinter getNp() {
+		return np;
+	}
+
+	public void setNp(_0304_NumberPrinter np) {
+		this.np = np;
+	}
+	
+	@Override
+	public void run() {
+		np.numPrint1(1);
+		
+		notify();
+		
+		try {
+			wait();
+		} catch(InterruptedException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+	
+}

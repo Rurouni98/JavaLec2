@@ -1,0 +1,10 @@
+package chap23_stream;
+
+public class _07_FilesToStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

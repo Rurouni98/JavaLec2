@@ -1,0 +1,20 @@
+package homework.homework11.basic;
+
+public class _03_NumberPrinter {
+	
+	int num = 0;
+	
+	public void numPrint1(int num) {
+		this.num = num;
+		
+		for(int i = num; i <= 50; i++) {
+			if(i % 3 == 0)
+				System.out.println();
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

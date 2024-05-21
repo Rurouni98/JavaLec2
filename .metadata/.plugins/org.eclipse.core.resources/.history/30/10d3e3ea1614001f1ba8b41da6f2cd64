@@ -1,0 +1,20 @@
+package chap23_stream.card;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class _13_Peek {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> intList = new ArrayList<>();
+		
+		for(int i = 0; i < 10; i++) {
+			intList.add(i);
+		}
+		
+		// 1. peek 메소드: forEach와 동일한 동작을 하지만 원본 스트림이 그대로 리턴되기 때문에
+		
+	}
+
+}

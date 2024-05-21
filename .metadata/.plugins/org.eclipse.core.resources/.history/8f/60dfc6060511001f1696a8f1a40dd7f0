@@ -1,7 +1,0 @@
-package homework.homework10.basic;
-
-public class _04_MultiplesOf3 {
-	public void printArr(List<?> list) {
-		
-	}
-}

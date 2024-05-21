@@ -1,0 +1,19 @@
+package chap24_dataio;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
+public class _02_ByteOutputStream02 {
+
+	public static void main(String[] args) {
+		try {
+			OutputStream os = new FileOutputStream(
+				"D:/lecture/Java/JavaProgramming/src/chap24_dataio/OutputStream02.txt"	
+			);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package chap24_dataio;
+
+public class _02_ByteOutputStream02 {
+
+	public static void main(String[] args) {
+		OutputStream os = new FileOutputStream(
+				
+		);
+	}
+
+}

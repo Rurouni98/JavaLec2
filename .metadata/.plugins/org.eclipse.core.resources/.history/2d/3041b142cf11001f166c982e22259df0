@@ -1,0 +1,10 @@
+package homework.homework11.basic;
+
+public class _04_FirstThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

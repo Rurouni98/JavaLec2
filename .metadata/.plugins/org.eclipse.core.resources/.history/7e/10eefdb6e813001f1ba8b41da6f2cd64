@@ -1,0 +1,5 @@
+package chap23_stream.card;
+
+public class CreditCard {
+
+}

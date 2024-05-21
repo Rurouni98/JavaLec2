@@ -1,0 +1,10 @@
+package chap23_stream.card;
+
+public class _13_Peek {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

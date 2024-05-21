@@ -1,8 +1,0 @@
-package chap19_generic.board;
-
-public class BoardFile<T> {
-	private int boardNo;
-	private String fileName;
-	private T type;
-	
-}

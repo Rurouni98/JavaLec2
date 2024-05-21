@@ -1,0 +1,16 @@
+package chap23_stream;
+
+public class _16_CountingMethodEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// List<HyundaiCar> 생성하고
+		// 아반떼, 3000
+		// 아반떼, 3500
+		// 아반떼, 2500
+		// 소나타, 4000
+		// 그랜저, 5000
+		
+	}
+
+}

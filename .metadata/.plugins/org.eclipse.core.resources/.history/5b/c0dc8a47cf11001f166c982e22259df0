@@ -1,0 +1,19 @@
+package homework.homework11.basic;
+
+public class _03_SyncThread01 extends Thread {
+	private _03_NumberPrinter np;
+
+	public _03_NumberPrinter getNp() {
+		return np;
+	}
+
+	public void setNp(_03_NumberPrinter np) {
+		this.np = np;
+	}
+	
+	@Override
+	public void run() {
+		np.numPrint1(1);
+	}
+	
+}

@@ -1,9 +1,0 @@
-package chap18_collection;
-
-public class _05_HashSet {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

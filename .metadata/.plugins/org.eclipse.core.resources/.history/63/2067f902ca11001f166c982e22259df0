@@ -1,0 +1,12 @@
+package homework.homework11.basic;
+
+public class MainAndSubThread{
+	public static void main(String[] args) {
+		Thread subThread = new Thread() {
+			@Override
+			public void run() {
+				
+			}
+		};
+	}
+}

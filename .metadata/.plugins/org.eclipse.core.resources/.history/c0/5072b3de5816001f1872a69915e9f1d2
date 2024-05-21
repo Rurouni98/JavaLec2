@@ -1,0 +1,12 @@
+package chap24_dataio;
+
+import chap24_dataio.phoneinfo.PhoneInfo;
+
+public class _08_BufferedReaderWriter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PhoneInfo phoneInfo = new PhoneInfo();
+	}
+
+}

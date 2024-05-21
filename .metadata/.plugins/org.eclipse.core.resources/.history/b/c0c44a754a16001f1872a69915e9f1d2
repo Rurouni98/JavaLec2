@@ -1,0 +1,17 @@
+package chap24_dataio;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class _04_FileCopyByByteStream {
+	
+	public static void main(String[] args) {
+		try {
+			// 1. 
+		} catch (FileNotFoundException fe) {
+			System.out.println(fe.getMessage());
+		} catch (IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+}

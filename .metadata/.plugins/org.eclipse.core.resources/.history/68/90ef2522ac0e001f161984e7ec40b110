@@ -1,9 +1,0 @@
-package homework.homewrok9.basic;
-
-public class MapInteger {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

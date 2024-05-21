@@ -1,0 +1,9 @@
+package homework.homework14.basic;
+
+public class _01_ListToStream {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

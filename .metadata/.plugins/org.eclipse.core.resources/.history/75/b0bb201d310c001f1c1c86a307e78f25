@@ -1,6 +1,0 @@
-package chap14_objectarray;
-
-public class Car {
-	public String company;
-	public String model;
-}

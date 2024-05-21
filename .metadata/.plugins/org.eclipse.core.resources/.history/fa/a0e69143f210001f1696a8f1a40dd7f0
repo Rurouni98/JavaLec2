@@ -1,7 +1,0 @@
-package chap20_enum.enums;
-
-// 1. enum의 정의는 클래스의 정의와 동일하다.
-public enum DefaultMonth {
-	// 2. 상수 변수 생성
-	// 값을 지정하지 않으면 0부터 1씩 증가하는 값이 자동으로 지정된다.
-}

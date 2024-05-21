@@ -1,0 +1,23 @@
+package chap24_dataio;
+
+import java.io.IOException;
+import java.nio.file.Paths;
+
+public class _13_FilesClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			String data = "이름: 홍길동\n전화번호: 010-1111-1111";
+			
+			// 1. Files 클래스의 메소드는 static으로 선언되어 있어서 객체 생성없이 사용가능하지만
+			// 매개변수로 Path 객체를 받기 때문에 Path 객체 먼저 생성해야한다.
+			Path path = Paths.get("D:", "lecture", "Java", "JavaProgramming", "src",
+					"chap24_dataio", "FilesClass.txt");
+			
+		} catch(IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

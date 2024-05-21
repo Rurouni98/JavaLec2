@@ -1,0 +1,10 @@
+package chap24_dataio;
+
+public class _02_ByteOutputStream02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,9 +1,0 @@
-package homework.homework8.advance;
-
-public class OwnValueList {
-
-	public static void main(String[] args) {
-		List<Integer> intList = new ArrayList<>();
-	}
-
-}

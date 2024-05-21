@@ -1,0 +1,15 @@
+package chap24_dataio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap24_dataio.car.Car;
+
+public class _11_ObjectInputOutputStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Car> carList = new ArrayList<>();
+	}
+
+}

@@ -1,0 +1,20 @@
+package chap24_dataio;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class _04_FileCopyByByteStream {
+	
+	public static void main(String[] args) {
+		try {
+			// 1. InputStream, OutputStream 객체 생성
+			InputStream is = new FileInputStream(
+				"D:\\lecture\\Java\\images"	
+			);
+		} catch (FileNotFoundException fe) {
+			System.out.println(fe.getMessage());
+		} catch (IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+}

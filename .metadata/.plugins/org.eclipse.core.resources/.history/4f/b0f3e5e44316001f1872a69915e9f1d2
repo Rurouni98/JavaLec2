@@ -1,0 +1,11 @@
+package chap24_dataio;
+
+public class _01_ByteOutputStream01 {
+	
+	public static void main(String[] args) {
+		// 1. OutputStream 객체 생성
+		// 추상 클래스인 OutputStream을 상속받아 구현된 클래스의 객체를 사용해야 한다.
+		// FileOutputStream 클래스
+		// FileOutputStream 클래스의 생성자에는 
+	}
+}

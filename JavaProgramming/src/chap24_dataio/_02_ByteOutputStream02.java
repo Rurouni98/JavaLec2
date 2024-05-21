@@ -1,0 +1,36 @@
+package chap24_dataio;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
+public class _02_ByteOutputStream02 {
+
+	public static void main(String[] args) {
+		try {
+			OutputStream os = new FileOutputStream(
+				"D:/lecture/Java/JavaProgramming/src/chap24_dataio/OutputStream02.txt"	
+			);
+			
+			// 1. byte 배열로 출력
+			byte[] byteArr = new byte[5];
+			
+			for(byte i = 0; i < byteArr.length; i++) {
+				byteArr[i] = i;
+			}
+			
+			os.write(byteArr, 1, 3); // 01번은 중간에 0을 넣어서 공백(빈칸)이 입력되어있는 것을 확인 가능
+			
+			os.flush();
+			
+			os.close();
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

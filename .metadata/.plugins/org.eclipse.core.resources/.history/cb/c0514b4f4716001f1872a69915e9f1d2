@@ -1,0 +1,31 @@
+package chap24_dataio;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+
+public class _03_ByteInputStream {
+
+	public static void main(String[] args) {
+		// 1. InputStream 객체 생성
+		// FileInputStream 클래스 사용
+		try {
+			InputStream is = new FileInputStream(
+					"D:/lecture/Java/JavaProgramming/src/chap24_dataio/OutputStream01.txt"
+			);
+			
+			// 2. 모든 바이트를 읽기 위해서 while문 선언
+			while(true) {
+				
+			}
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

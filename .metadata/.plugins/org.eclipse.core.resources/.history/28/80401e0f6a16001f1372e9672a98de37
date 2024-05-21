@@ -1,0 +1,14 @@
+package chap24_dataio.car;
+
+import java.io.Serializable;
+
+// 직렬화(Serialization): 객체의 멤버변수들을 바이트로 일렬로 정렬하는 기능
+// 역직렬화(DeSerialization): 바이트로 일렬로 정렬된 멤버변수들을 객체형태로 만들어주는 기능
+// Seializable 인터페이스를 상속받으면 입출력이 진행될 때 자동 직렬화, 역직렬화가 일어나게 된다.
+public class Car implements Serializable {
+	private String company;
+	private String model;
+	private int price;
+	private double maxSpeed;
+	
+}

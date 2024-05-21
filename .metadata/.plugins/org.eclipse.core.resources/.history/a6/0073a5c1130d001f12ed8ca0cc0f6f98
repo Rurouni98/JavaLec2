@@ -1,9 +1,0 @@
-package homework.homework7.middle;
-
-public class BitRepeat {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

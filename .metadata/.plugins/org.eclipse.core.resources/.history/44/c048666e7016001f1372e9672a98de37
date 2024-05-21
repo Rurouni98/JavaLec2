@@ -1,0 +1,19 @@
+package chap24_dataio;
+
+import java.io.IOException;
+
+public class _12_FileClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			
+		} catch(IOException ie) {
+			// printStackTrace는 패키지정보, 클래스정보, 어떤 메소드에서 예외가 발생했는지 까지 모두
+			// 노출되기 때문에 로그파일 하나만 해킹당해도 정보들이 누출되기 때문에 보안상 현재는 사용되지 않는다.
+			ie.printStackTrace();
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+package chap24_dataio;
+
+import java.io.IOException;
+
+public class _13_FilesClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			String data = "이름: 홍길동\n전화번호: 010-1111-1111";
+			
+			
+		} catch(IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

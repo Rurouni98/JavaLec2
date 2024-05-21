@@ -1,6 +1,0 @@
-package chap19_generic.ramyun;
-
-// 제한된 제네릭: 제네릭에 지정될 타입에 제한을 거는 기능
-public class LimitedRamyun {
-
-}

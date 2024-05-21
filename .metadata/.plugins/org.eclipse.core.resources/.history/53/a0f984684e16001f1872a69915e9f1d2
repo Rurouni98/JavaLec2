@@ -1,0 +1,18 @@
+package chap24_dataio;
+
+import java.io.IOException;
+
+public class _06_Reader {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			// 1. Reader 객체 생성
+			
+			
+		} catch (IOException ie) {
+			System.out.println(ie.getMessage());
+		}
+	}
+
+}

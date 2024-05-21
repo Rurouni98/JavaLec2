@@ -1,0 +1,16 @@
+package chap24_dataio;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class _03_ByteInputStream {
+
+	public static void main(String[] args) {
+		// 1. InputStream 객체 생성
+		// FileInputStream 클래스 사용
+		InputStream is = new FileInputStream(
+				"D:/lecture/Java/JavaProgramming/src/chap24_dataio/OutputStream01.txt"
+		);
+	}
+
+}
